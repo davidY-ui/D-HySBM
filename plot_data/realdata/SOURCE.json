@@ -1,0 +1,1247 @@
+{
+  "description": "Exact existing fit arrays and held-out inputs needed to recompute all realdata_plot.ipynb figures without refitting.",
+  "numeric_data_modified": false,
+  "source_project": "D_HSBM/D-hypergraph-message-passing/data/processed_input",
+  "dataset_reference": {
+    "authors": "R. Mastrandrea, J. Fournet, A. Barrat",
+    "year": 2015,
+    "journal": "PLOS ONE",
+    "volume": "10",
+    "article": "e0136497",
+    "doi": "10.1371/journal.pone.0136497"
+  },
+  "cv_fit_cases": 160,
+  "full_data_fit_cases": 32,
+  "files": [
+    {
+      "source_relative_to_original_processed_input": "high_school.npz",
+      "file": "high_school.npz",
+      "bytes": 229449,
+      "sha256": "f04238c0bfe1ff0bbf3ed43352d0d827394bc5fe004761ff940c02c973dbfe52"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_meta.csv",
+      "file": "high_school_meta.csv",
+      "bytes": 6434,
+      "sha256": "f64b34a64bac4a285662358ccf95659ec63a6de79c7c1c3ac6e699e9e4be4d11"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/fold_00/high_school_test0.npz",
+      "file": "high_school_cv5/fold_00/high_school_test0.npz",
+      "bytes": 21749,
+      "sha256": "a9910ad00111e80ca1d4d41e924a550e4a7a9e58189924db82967a01e20b65dc"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/fold_01/high_school_test1.npz",
+      "file": "high_school_cv5/fold_01/high_school_test1.npz",
+      "bytes": 21730,
+      "sha256": "b05615a01cc35b6c7153c61fea192c07f447a8729231bd72550b3460b6efd26a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/fold_02/high_school_test2.npz",
+      "file": "high_school_cv5/fold_02/high_school_test2.npz",
+      "bytes": 21671,
+      "sha256": "7de10aa87178b173630ed230e398b30512a767dc4be54ef9bf5723f1f2b9a6d5"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/fold_03/high_school_test3.npz",
+      "file": "high_school_cv5/fold_03/high_school_test3.npz",
+      "bytes": 21704,
+      "sha256": "ca68f05acaadff4271cfc3baef8c9c5968613606afef541fbe01b28046b24173"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/fold_04/high_school_test4.npz",
+      "file": "high_school_cv5/fold_04/high_school_test4.npz",
+      "bytes": 21707,
+      "sha256": "e9322841cae5ed0950dd1627b3b27f9264999d6bc4fcc6b736aa99b5103ac206"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/summary/summary.npz",
+      "file": "high_school_cv5/W_compare/summary/summary.npz",
+      "bytes": 4556001,
+      "sha256": "90114f9c0b3ad4f45e7da4566b485881f7c89178c05cb3d48de5e68e7b1f372b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/protocol.json",
+      "file": "high_school_cv5/W_compare/protocol.json",
+      "bytes": 6234,
+      "sha256": "1192e4dca7f8d129609cf0519c6487b3c09987fd2cc6f3954a6fde3dee56e94a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/status.json",
+      "file": "high_school_cv5/W_compare/status.json",
+      "bytes": 94,
+      "sha256": "4d07197be745add82ffba9175926f4180a4636f26ac2e1e9d1e2f77414465f4b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46640,
+      "sha256": "029febf5950c9e8164a2b9e38d867a594f9f1cd6da186d3da81b2bd043eed387"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42416,
+      "sha256": "0d38a7f0932ff62833c86dd0d7cb41035981e85d8546f2966038b4f5146be0a1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51040,
+      "sha256": "ac169637f224f50c42e034da49716fb3c1ee17d7cd36ba39c56cbd2dc755fafd"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 53336,
+      "sha256": "37d188d8511397f48972293509f8ef8e2230436ced47b9986831042f67fae5bd"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50984,
+      "sha256": "6d858108e0284ab3b683288081169811bb7daa81c7175faab3383006dee7daaf"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48955,
+      "sha256": "3ca1291572532f62769fdeaebd6da420ff23e22c6ee1d1c1faec47e0f354c4c1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 65819,
+      "sha256": "632155761f10df2ad175dcc409e09e4e40cf40b5166bed3da23f93b05b64548a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51587,
+      "sha256": "26b500357de36b45a72b88512938a8776a3eaa55a159b951aa0d3e418586921b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 54747,
+      "sha256": "06a16ba250aaae80f0cb73eba5d8d80f536aaff6ece8eaa996666edf7b82a1ea"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 58035,
+      "sha256": "563ca77bcb1bc840d2e0e4de45bf06bdc69909ba17db5cc44ef1669bbb60e052"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 62195,
+      "sha256": "adab7a3880dba63730b5f1f88b2508abb25212362cbf98c021ebef614f17bc65"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46691,
+      "sha256": "f9ead8f01f0b4d6e18f854be44a82c0444060ec6f1d8448f9575dcc1ea0ed9fc"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47851,
+      "sha256": "28b22ffad6e7acf2b48a2f9a31949d4a2395e7dffdcc8357b481262c1624b351"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48011,
+      "sha256": "cd96f08618941e318f1b76a710141944a3c3a213f8fd991b37462a4d094b5bb3"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45915,
+      "sha256": "7b392e89dac9c92e0c4dcbad77f756c430706e13d064765d4e876192780f4208"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49315,
+      "sha256": "76f3d1b14918ab5b3d199701dd08d65a598789a6479da925ed89561e6c80d4aa"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52731,
+      "sha256": "ae7c062cc5d362a942f7621234eb230ec9e185410cf33eb9b53735f8650ddeea"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48947,
+      "sha256": "ec599edbbb4cb03d876fc6c235fc6adfd89a483f1b458de06705df40cf15a496"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 70291,
+      "sha256": "244962a9357972b24054aa7e306a7b6ae41db829c6c8a254e9f418af051b00c1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49891,
+      "sha256": "d4c9b3c76204791f2d0232f0c281e74b2439978b3bc78fe5ba3366f98bf532f1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49051,
+      "sha256": "92e76ea907b75bd8de728dc16eb50c7322731a52e09a75d06f59367333c1d6c4"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49923,
+      "sha256": "e6738715a1261a3d8340de7126b51f4517d1f8bfd777b07e636cf9610d210689"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50155,
+      "sha256": "a985b255c0341992b169e98cf727c20093fb767c8d4a565d400839736e3f12e0"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 55267,
+      "sha256": "2ae1ae02d55d410406ac1b94d716fcbbf44d244aa2f60906350b0e4763a2bee1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 64643,
+      "sha256": "98151b296ffc5e413efbd1dba73a902cbc4412fa63111cc967ad148a7c832371"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52795,
+      "sha256": "eace5f4b9c069bbc50f6c1eabb89ca94d5d228939b69c24612429de546194ec6"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50043,
+      "sha256": "2b61b70840c15b02fcbe3b1a5d096c3b847772f12f3c9ed343ce1dc157d874c8"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 54131,
+      "sha256": "244d5fe7834e0649da30c868b8570c877f4765e43803ace3e87a79c90bc9e95a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52259,
+      "sha256": "c51fbab666d4a90b4ec64a4a5aa18a0f7b35af1da31951576180dbac1cd79b71"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52899,
+      "sha256": "9656dd64c13f8e7841a3a946124b79b893bd263552222434faa5c90da44a0563"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 80139,
+      "sha256": "974ce1bbdb54fbd8e52e7acd34513bcaba7f66855848f64a15a68d145383b755"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50195,
+      "sha256": "be4ae3889b2146e946256f75bce04067311873f11d3922d485c8edfa5d332072"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47971,
+      "sha256": "49827770e60c40b66c661130cf34101e8b815fc361e50a7d1b2d01e758b5ee41"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52979,
+      "sha256": "306443f85e6280e0ef9d7c1dde3f0b29366644e5999e4875c5111d2f48e60d3e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50931,
+      "sha256": "45348654381aa02d010f8a096e0657d829a146b8f81ab3557648d40ff955ba7b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 115283,
+      "sha256": "b40ae46298bbe26a650b47e89d7fc11ede50bcfaefb6332cad221a9cfe3ddfd7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50467,
+      "sha256": "14eb7afbed22514e79d6b6b2c35d738175791e74f1bfc5730fe96d40e398619d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50939,
+      "sha256": "e23ea24d4e83044ce40cbb81a50035b03647537d83938f6b02d5366ff5a89a85"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 55643,
+      "sha256": "e2fda39b2b0201c0f1eb00880bffb371ed2a738a306434199cb2003cadeeac1b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-differ/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-differ/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 53715,
+      "sha256": "5917d3e9ea4e9caff7224dd698e5bec121a6bc4862ed10ed85a08365e6d68bfc"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46640,
+      "sha256": "61bc0567a42a7d4fee497c580496909e09fcf6f463cd3cb3f1f00510d045912d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42416,
+      "sha256": "5448d38e384a306ae745781d3be006c1ee730622836cff0435b401789548d189"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51040,
+      "sha256": "1e2ac7b448b900e230b82a1129741b6d67b62be5eda77207d06e5eda58233edb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 53336,
+      "sha256": "6132533dab223520c0323f9aa1c853371e856e023c120bd79945374a782f00ca"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50984,
+      "sha256": "32b06bba1b12b3161758d4109628b7984aa0413a82451feff38f409a35d1da9d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43291,
+      "sha256": "1f265bb607ee9684fe1cc97f480122682bd1cf4523cceaa54f4e10587855833f"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42499,
+      "sha256": "5ea4e9e7dca0000cafcc00c02b0ad56993ac884731db12062ee49c1d495f5936"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39963,
+      "sha256": "ff1cf8e75bbb278f9856504f8017230c82552747ee3bdc833506c80d82b21110"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 44715,
+      "sha256": "44bf1dd727a009c62a6c916e237bb13717b35ba407e20ea956a7a5965bb51ab8"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47955,
+      "sha256": "fff6bf82b85477a5317c351b5a6529d410c75a7c13d1db4b91edc2ba23025285"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41275,
+      "sha256": "0bc1daeb8899d229292e20d63dbd65ed9f5f8f0f59967b8a6f73deb06dc18100"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46859,
+      "sha256": "ccd21390b521177abb56939e9ed321abe95aa922b906f2dc674714f70832dc18"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46947,
+      "sha256": "ebc864c57d5c93f92556349c4698f0a87711ca366bb575211b532ba508782e97"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50827,
+      "sha256": "024dde52eae7882a5dce756bd0ccbd713232cc9c8ffc359535bed4f705e67770"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45499,
+      "sha256": "b99298f8b11a595137e3ff598325ae8df575d9950e9e34e0d39f2b61efbc91ef"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47723,
+      "sha256": "99d91ee9fdf2d9b58cf35695d39a398628497192c0e8c7d91ad878f233593aee"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41947,
+      "sha256": "e555d3d312465f92627b5ed72212e35891650b90048d269763ccd9f8bccb64ce"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 53011,
+      "sha256": "fb63b55839276de00eab5ff6652c4a0848e751126a9007c0c7411571447a256a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 70291,
+      "sha256": "8a52c8e829b7399ad697b2de69248015dfb58340486631329353df81f417d100"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43507,
+      "sha256": "9c2f11c5a420f3db4dfb2cfd528540f027558b824c929073977a23dfdd77691d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41259,
+      "sha256": "82edbdeb1a15c516b89cf21e1c2beb324ae5912c215b84c7adb32f0eec977718"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45499,
+      "sha256": "6617a825361d6346b57b95fca8e5ef47b22a9e8679c0046682570633b12bff29"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41435,
+      "sha256": "d988b6a2fe51e88e19e39c9754084d2c5fc060ba213955feee023d33f95c7db8"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 56947,
+      "sha256": "5ae3161992b8e9255004010b2eee8b9a5b263a7667194173a39c9340e618e3d7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 56851,
+      "sha256": "18403b22614245e95e139bf8e417cfcbe53f54f0f88ec5adbdb5bd0ce19e791d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43619,
+      "sha256": "6aad28acd41ea573f5d1e9c10856df85371a3f722a7dfa860d462e61fa6f57e6"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43771,
+      "sha256": "890c68ec86b7b0a5fda3673fb9f964b05151a76278d02948e673844b4d15cc89"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42739,
+      "sha256": "9b57e22b971111dba2a79029a65d37e18a55a367325cdcb70cdaad48911789a8"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45219,
+      "sha256": "4abc948c1bb56056b633e6ce0ed0717a4b0caba193765c255e305e72a762688d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 57803,
+      "sha256": "140deb4f15834e2c2a455040b90748c5d3ad47aa88de05130dffb2559e5b9b58"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45355,
+      "sha256": "010933740182b1c77f5efe26262cd0481d5bd1c43de472414c8d6058db600ade"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 44091,
+      "sha256": "da585b5a21b41a2fcf2bbb1c7a7c0348a6eeed53152cba594ec4785ab0682270"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47483,
+      "sha256": "53b52df4bd52a8fbcb1f751a4f9d0fde5e9011082eb88db9f647d769115bc4b7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50587,
+      "sha256": "eab951848c91bbac3a0f763557aad3c8c3d598011fd341d8b84aa08d5670a6ce"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48131,
+      "sha256": "b15bfc0a1e4f7f95fb4a3713fe6a5089e09a7e43e726c73a9cbd706bf92bb1e7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 55971,
+      "sha256": "d9751a02a5d5afa85f6c0ac13d4ea610e8185447145aebe5463e48abe23496fb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48003,
+      "sha256": "b795131a17b63aceea2fbf7dd30a54947d2399e31f7fcf3c4f677249fc147a12"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52923,
+      "sha256": "cc481a2dee7e98afface37dbda91c8e1458ace185170d014615fb5682a4f06b3"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46211,
+      "sha256": "68561243e2f210e88467607fcd07b1536d99524befc0e542d9ee1d156b658395"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/w-share/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/w-share/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 57171,
+      "sha256": "2762e063cf30b7e7272cc7033f4c363dfe0e129c6e7f0127c9dbaafb994669ad"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 36436,
+      "sha256": "866db2e4ed91c61c83ca247d23ae51c525cc74fbc2b200758bb3fe28fa674e25"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37684,
+      "sha256": "fedd83c4ee3325fb2e83254efbc92a6e0aafd31f08f74b7e41226d77951e677e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37700,
+      "sha256": "51e5702159ab645de16ee91f5c05e11d9507b500512f69cd2eb6f8bb23eaaab5"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49060,
+      "sha256": "b3909376a545859109001bbb50a67cd1c9e97f6413eff8454cc3f9618f869b26"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40732,
+      "sha256": "ee69004b56e6adf1170b172b6f2c5fae82e40a8f5af377359c2f584cff127ca8"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52275,
+      "sha256": "7faae92c4c3f6dbeae8d9e9323d16bb090b58c831d746b6863561c3932c287b9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39275,
+      "sha256": "a752dcf9e2abe04005a38757a55e5f0357d555368549d2e0814a8406676b41c1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 76051,
+      "sha256": "147acfc87c938cb1fac21c26e6bb17477b781acbd80763ee703e09cef4d928ee"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 63595,
+      "sha256": "955e50beba644493d872c5f2e489b7236fa5c9a5e7640924f66f4bb4aee68aea"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48571,
+      "sha256": "b85f19c9d60cd343cb7b48f88585e14f2196b50c1a22f49e694485b546318322"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38067,
+      "sha256": "07d46ece8785bfd3444b1231ed73f44ed8246bdb151950ec1f07ab49b592581f"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39427,
+      "sha256": "8a52bf86bb47b58ecbb37ed2dfb59f65029c9e5f417caaeb981dd0279fdbebb2"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37643,
+      "sha256": "06f6053aad45735dd5a37aec1adf469129b3ff3aeb1b85dc789c42bfe7bac028"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39043,
+      "sha256": "01184eb23ae39c6e75f1b212be93f8792a160debf3eee8736ee907abe627bed9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38771,
+      "sha256": "264bcf89f8ea0cfa992b18874e37b15d5e337a800e37ae8f168be82d23eca35a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42571,
+      "sha256": "4127bf661f4b739a7a30f96f49c075380e9f0397a3fad6c00292463efaca2370"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 48067,
+      "sha256": "06afef92505266a5e81fd336fe5bda1e213e391629f4da954f2fcbb4b8f84d34"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37499,
+      "sha256": "5671b1094995cae8fdd19963e25a2d32a13770b449d7a4fc3b28617b8353dc4b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38315,
+      "sha256": "6111e67f472865d8c8720d38bf4e971791f3345183c85494465673f8e650da18"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39859,
+      "sha256": "8ed486b280bf97f9c5d3bdb8f92b68a3f2377fd88dd34aa697666170dc49b7b6"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50296,
+      "sha256": "f6711329d63fed3691d7b5112cd45933a68907876343606bf467ba04060c3763"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46248,
+      "sha256": "a181dfc095c0318415637f9e74d6c6bc978147e9425fad35176b765473fcb6af"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42584,
+      "sha256": "e6efd49ce66e139474a1f0e14e89b4a19e620dda66d08eceef7a04bd728b596b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39584,
+      "sha256": "e72bb46445883f376084d8384f009ce746279e88831848ccd69728b6692f8bf9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42344,
+      "sha256": "71faa82354c792ee96dcbf0a78fc885022ed55c4bc05b22f45b57452b5f06b49"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45544,
+      "sha256": "1cbf4e5b2f979cf7b0b0a16fde08b93176621234c568d7e6969e3a34b9ea8b0c"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43896,
+      "sha256": "2dc5d0db4450a5810648a3cc329be92ab8ab106d1619731a3f3dd9ec68255f69"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43016,
+      "sha256": "5ddabc1ad183d35196c696673cdeade01676d4614597f16b4949d64162b2ee5e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42448,
+      "sha256": "e1e2a8ac9803d51e88aef75f144a37432765b3f1075abf3fd6910bc2c333d20e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41224,
+      "sha256": "5e6d346d333e16a4b12eaf148013e4b1c317592e7cdff23c131506e756d95a8e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39432,
+      "sha256": "8800dbba009be7ecce96a9b965b10794f95332021c028ca8f801c22d377d20c4"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40248,
+      "sha256": "2ebdc8e39360d26efeb20574a46976290cc9c93d27adafce59e8ad5916a3b45e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39368,
+      "sha256": "cde26ac28fec887b55c482c201d6e5edb4935bc64ec4a71d86e2b690dbe30df7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39960,
+      "sha256": "b2e355892bff017c42f3ff029825e5d44035ce7697c5b3da3ee5cdeae8b44086"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42672,
+      "sha256": "32244977e9bf3f627536d50cfae942a6c9f406a5f7495a198b76bfddd408f40a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40829,
+      "sha256": "d1099fe759f2270a85eebc16f668c3aaebab54ee4fef3adfc060dae0a9170773"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47309,
+      "sha256": "56e74f0c599e5538cc322c5de9bdbde99a7c2fc2e46b435fa206f8f90051026c"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41037,
+      "sha256": "a1cc0f6ac0e6ce0547a35560479540c9484c301dd4c7a0701a2de106a615ee15"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 57653,
+      "sha256": "8afa2f0eb246d4f9cd81105a1df9a19345c1c608579852bd26875f3b595e89eb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-differ/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-differ/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40429,
+      "sha256": "7d8334eee03f7d63b5a625e21225f1a08d18249df21cb961f2cd10f2b31b3b3a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 36436,
+      "sha256": "1caeb8f6e5d5b138be66a7e81abeffcf7e4baa7f1a57812b5ee2a8f91f837fa2"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37684,
+      "sha256": "860685fcebbccd30c4a804d974137b4cb69dc2427470727f324f44f7ac45c927"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37700,
+      "sha256": "2ccc88e7de798c17de6fe05364b76a7a99ec9561c482c9db91db95c888023d37"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49060,
+      "sha256": "cdf11561289ec6aecdefbeecb61e9c2a2af7bc2fb2a434374d1a669035bd4401"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40732,
+      "sha256": "1efd2a18a26de8815e58611da2307dae73af67c6e25df3008733a940cec1e511"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40443,
+      "sha256": "85cefdfe0962fa64a78893e15cf2145e869caf29cd62e69e5b2dbed00e960b10"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38219,
+      "sha256": "65aca674ee64e15bd2832f1bfefd9c52042e2c652083638dbc2d56ce12ea2178"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 61203,
+      "sha256": "3112cd420e54605e4d517d7a47dba4bd376b471e35a67f760c5b56e3ed576d22"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 56083,
+      "sha256": "b797604c7c8d6a575ecc5bba9a48edfc361586ae014b35fcc31c4d79433f2447"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39131,
+      "sha256": "e9074e19b8507674e1c10ed7d2706d6bde91fc9de27f6b76a1f4e29ab0f6b1f9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37491,
+      "sha256": "a98f4a8b1b7adb99e727dff042002b5ecaa3fa3b9abb802ed978d74ca601c229"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38643,
+      "sha256": "704838e4500942d04c0daebfeaab0a203250513787d6b5d637d219543f305c66"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37643,
+      "sha256": "6c7d50307bb683c76e1dc06a46dc1e9b108c36b9810750bf89739d9afbd477dd"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38395,
+      "sha256": "bb42a11558000867806b0e76bcc85c54039d238f4a3ff7576627bd26ba2d0918"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37507,
+      "sha256": "25e02c054a9a6a7af434ae3aaf458aadd5316eaa8e26e144b0c30a90c046fcd3"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38883,
+      "sha256": "5cec407ebd42886d200d1fa4442bc44d1351af7d61e0b247fe7ac5f757076d69"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38451,
+      "sha256": "f62ee9e22bb40fd86f9da49880adaa045728e637508a1c74e22c5c3254c32c5e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37499,
+      "sha256": "e4ccdd5e621122a3d01f38ba29b37c85b7b0f78333a174bc7c291ecb3cee4558"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38331,
+      "sha256": "d39b1af4a2d700abc51c017b7ef3d434c86ffcfffb0211229063970f66d65aca"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39859,
+      "sha256": "4c84b505a24c706d2557f220aec85535cd629d92966572036bd36568a4912d4a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43240,
+      "sha256": "58c36d2a894991f3c59142a69e077d2c10f136a2963a574a26f9a2c0be343ca9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39832,
+      "sha256": "43360a2823c3d3f62065ad79c3a87254e55a7e447bba42455901be9333fe0929"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39040,
+      "sha256": "0d829ec24983e9ffb248ae65b64d6e3364df45eb808808cddff2587b86bb7513"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38944,
+      "sha256": "086cc537ed856d6f9a528c26dd2b78c6140e003529bb8afadefa0e0800bc6a15"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42416,
+      "sha256": "0967170b7f819e701f993881af44212b3a4c66025ce5519bca5e02174afa034a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41864,
+      "sha256": "0c078f0c83921153fa55ece30b4b2c310a7fe7d8e794452994b6393d331236cb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39848,
+      "sha256": "07d3fc05992efc5456c067e9abc858c3cd07ec0303adc8d3ac75b679baf17567"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41016,
+      "sha256": "41702fe06c78e03b0d7ea5d6d4cbff25316b8fa6a7eea80544c7c616dcd9cc96"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39080,
+      "sha256": "9c5807af5ddf84d5f186e2869612fa87c8036a9c7d2ccbd865f412d93ad8750c"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38776,
+      "sha256": "19d53ac1cf631ac851fdee3c3b97110395d24c904cfc79c46a68a53b44137fd9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40120,
+      "sha256": "1ef6c716e6e720709ce4c706f436f842cf6e1ea76fc6e10fab56ad4c4edb061b"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39512,
+      "sha256": "0ba1e49a79caa599c14903b3a3c524b319d11afb32ff7fbb7f6d804670c4866d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39368,
+      "sha256": "3718defeb53645edb31fb507e66941921e5aac3aef80fb653d3f2382c988f348"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39176,
+      "sha256": "3aa6363bfc038f1f5763e532abd32b2507d8cd7dcbfad38b10e94d5a28c23875"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42472,
+      "sha256": "320445b4d6155f7f497ef2c6d3493375c60bd3afce398e1c6f539a12d13cbfdf"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train0/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39981,
+      "sha256": "4c98834d0f05e1cdbb7ba3e1dd5c6ceb4cee8b78ffd464712af227f20c9c32a1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train1/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39893,
+      "sha256": "8c416c35c675a1d5123747bf82412f987e723eb0d2710377b2f72f8a48bd4418"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train2/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40013,
+      "sha256": "40bd71c9036f7c21d6386794f6df512a4eea796e741b9b37da8950fa8a08aded"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train3/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 45069,
+      "sha256": "9bda98ae2f1a7dcce208cda750bfaa0be65368deb91324f01d0b0c5437dadf1d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare/p-share/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare/p-share/high_school_train4/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39773,
+      "sha256": "ab13f8ed91cd763618442370cc787f159663df95352c90747d35768ca6862b67"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/summary/summary.npz",
+      "file": "high_school_cv5/W_compare_all/summary/summary.npz",
+      "bytes": 686835,
+      "sha256": "9fd654c6adfd73c238cc8908bb7b0963047b4beba7a1c0746e42b896be4d15d4"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/protocol.json",
+      "file": "high_school_cv5/W_compare_all/protocol.json",
+      "bytes": 5392,
+      "sha256": "59b9f067aba3b84f2fb2d4f077091beb57c428835e6c55b09b127f69812799c3"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/status.json",
+      "file": "high_school_cv5/W_compare_all/status.json",
+      "bytes": 92,
+      "sha256": "f5d51a97a9bcca5150757b6e9c2047f706eae465af111a6e97ebefff08c609da"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40152,
+      "sha256": "d8a43ea549c23cd89126eaa0790c28d85afaaee8ed68216df4d0d25d11ebe406"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51939,
+      "sha256": "8d106eddfbe692188360823880a90032f93063d260e216f98d6d7c3d0c8ba7ce"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43331,
+      "sha256": "88e300f9b4dc1aabdf163d1f374a79ea10010e4becd2187b7e8784feec033861"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50859,
+      "sha256": "dff5fae4650770fbaffefd6ff49e5925823d44ec37729db55445b9309acfe1b3"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 49451,
+      "sha256": "2b423c0c66fdc73fc42cde514fa57e60181d5da0e76d5865f625ebddb4449991"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51299,
+      "sha256": "ae875e21dcf26b718e78d211c33a5b163f9be1ca4fa04f23053987df55f0b7eb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 52459,
+      "sha256": "0abb4378cc02d5ada866c05150e0f9ba1bb2c1cab20aae93ebb38e7977a90636"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-differ/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-differ/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 50939,
+      "sha256": "43108a4683d8721b8db0b066116202c0290259e6c79db591ede3e9533068fcc9"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40152,
+      "sha256": "32d72c13ffde2e14beb22300e33eca98ea8e6ed72da555ff7f7221648d9cfba0"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 60459,
+      "sha256": "f5997a39d52f13aec8dc9b7a99be1938d196e18564b9b5a0f0ac94ba336c676a"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43971,
+      "sha256": "eecceefb2c45a29378b7e69b0a64e7f6d34f91dfb6245cd9ae32a40c67e973cb"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 51467,
+      "sha256": "8fa292bef6bf4fd6031776fa1ff5f046cd6bb5f2f4cf46eb62c93d0fa66f2489"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 40603,
+      "sha256": "f0bf69995df8e8fa40a2d507f1308b1fa63ff20b0e1673350628e89b9ca8d07d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 43275,
+      "sha256": "cbcc173a78384dd0f6cbc9acadbc6b1a44413904f4e7bcaff0957eaf06b68f7f"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 47915,
+      "sha256": "233ff630e96708a2f6485b554581352032b533f614bc7ab55f29080c238a547e"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/w-share/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/w-share/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 61443,
+      "sha256": "e3abcde5f067e95bba5db4770cbe7ffc4c1df8e3104444b7b0ff54e086769536"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38092,
+      "sha256": "aa42275e9d4d5f59f542b3d65582d84cb2a38e0df38ddf146822e7a4e96c5c2d"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 44387,
+      "sha256": "3c6c8938b45e851fe5fd83aa4904c56e6c0828ad95ba36314407be79619936a1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37771,
+      "sha256": "e3a4cb70e79a908e86e1c8dde4814fc76ac933ce1807f5370a1d544aca2a10e1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38683,
+      "sha256": "0359ad38d3225d8d11d986dd8311c6ea828b3408bf184599415cf75429a0fc74"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 46056,
+      "sha256": "c5f435d3eacc7fb065524b8f75bff323d8f310effb6e9eba3f83fd3d1cf49d4c"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 44664,
+      "sha256": "f1a9a162eae3b9b31f545d2d388fa1650a05817f32763023d1606a6489d1edb2"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38096,
+      "sha256": "8858e21200b8b7c317136800bfc14c555345ae77736ed3306f706e37790d4d3f"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-differ/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-differ/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 42701,
+      "sha256": "34f57b964a7122a1806dc30f5685f19f9d8f2f94f5796517f231e54fcff8b92c"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_000_sizes_2/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38092,
+      "sha256": "2aaa0b6d4dbb4f83d125b9fdc5727fbe1209dc39a2bef69e6c39b2685ec20d4f"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_001_sizes_2_3/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38395,
+      "sha256": "80fe3f779a207d623368b9759d9485576c8f0c7813f07300aec640a3b5d25cf7"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_002_sizes_2_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37187,
+      "sha256": "fec53196acd56fc5e85ddf051e1b0a56a73289a4158105d49a132a4f9dd8aa25"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_003_sizes_2_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 37395,
+      "sha256": "9fd4ff7290b5f6e578af462a66eecb932a23f76bd8db0c69c0ce9f5b846a4397"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_004_sizes_2_3_4/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39152,
+      "sha256": "b2107dcf2210a782d385776d8fe73ac2ddb8ae2f6717cc0af40591e60937ddb4"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_005_sizes_2_3_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 39248,
+      "sha256": "232529525b6d4047e89dfff4e224e8a041547f5e8ae11e37784f476b35659d83"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_006_sizes_2_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 38096,
+      "sha256": "08f0082ce2041c342996abf043e552f257037d751723f4b36ce362752f602ba1"
+    },
+    {
+      "source_relative_to_original_processed_input": "high_school_cv5/W_compare_all/p-share/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "file": "high_school_cv5/W_compare_all/p-share/high_school/case_007_sizes_2_3_4_5/seed_234/mp_results/inferred_params.npz",
+      "bytes": 41053,
+      "sha256": "4f840b87b05fa090fd05ed8e4668a8f5d09f22a49ab9a521299de1847d4b8652"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Plotting and notebook verification environment used on Python 3.10.19.
+# Replotting the bundled saved results does not require the Rust extension.
+numpy==1.23.1
+scipy==1.8.1
+matplotlib==3.10.8
+pandas==2.3.3
+tqdm==4.67.1
+ipython==8.37.0
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==7.1.0
+jupyter-client==8.7.0

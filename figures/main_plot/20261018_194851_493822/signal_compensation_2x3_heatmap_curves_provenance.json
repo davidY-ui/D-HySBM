@@ -1,0 +1,16 @@
+{
+  "stem": "signal_compensation_2x3_heatmap_curves",
+  "caption": "Order-dependent signal compensation at N=10000, K=4 and kbar_h=8. Columns show r=1, r=r_star=2.21252, and r=3. Top: mean overlap across 5 seeds; outlined white curves show stored order-resolved stability boundaries, and white dashed lines show the pairwise reference. Bottom: mean overlap at selected x values; bands show population standard deviation (ddof=0), coloured dashed lines show theoretical boundaries, and the dotted line marks Q=0.1.",
+  "sources": [
+    {
+      "path": "data/signal/final_results_signal_compensation_D2_3_kbar8_ALLR_mean4.npz",
+      "sha256": "b51eaa889dc3d0d4fdf0f9e6a099e41073e97aae10b07074f7c38c736611779f"
+    }
+  ],
+  "statistics_ddof": 0,
+  "png_dpi": 600,
+  "figure_size_mm": [
+    280.0,
+    150.0
+  ]
+}

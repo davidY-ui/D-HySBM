@@ -1,0 +1,11 @@
+{
+  "stem": "theoretical_threshold_collapse",
+  "caption": "Order-resolved physical threshold for D={2,3} under fixed incidence budgets kbar_h=3 and 8. Dotted lines indicate the x-to-infinity limits; the dashed vertical line marks finite threshold collapse. Values below zero are clipped only in this physical-threshold illustration.",
+  "sources": [],
+  "statistics_ddof": 0,
+  "png_dpi": 600,
+  "figure_size_mm": [
+    180.0,
+    114.99999999999999
+  ]
+}

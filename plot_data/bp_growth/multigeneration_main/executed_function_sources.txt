@@ -1,0 +1,364 @@
+def factor_kernel(messages, affinity):
+    """Unnormalized observed-factor message for each independent factor.
+
+    messages[f,j,b] is child j's probability of label b. For root label a:
+      F_f(a) = sum_j sum_b C_ab q_j(b)
+             + sum_{j<k} sum_{b,c} C_bc q_j(b) q_k(c).
+    The second term, although independent of a, MUST be retained before
+    normalization. A common multiplicative layer scale cancels afterwards.
+    """
+    summed = messages.sum(axis=1)
+    pair_sum = .5 * (np.sum((summed @ affinity) * summed, axis=1)
+                      - np.sum((messages @ affinity) * messages, axis=(1, 2)))
+    return summed @ affinity.T + pair_sum[:, None]
+
+
+def root_normalize(log_factors, prior):
+    """Full variable update: prior times product of incoming factor messages.
+
+    In this balanced symmetric tree experiment the nonedge external field
+    is label independent and cancels upon normalization. Parameters are fixed.
+    """
+    log_weight = log_factors + np.log(prior)
+    log_weight -= log_weight.max(axis=-1, keepdims=True)
+    weight = np.exp(log_weight)
+    return weight / weight.sum(axis=-1, keepdims=True)
+
+
+def affinity_matrix():
+    # Mean row affinity is c0; epsilon=c_out/c_in=1/5.
+    c = np.full((K, K), C0 * (1 - SIGNAL))
+    np.fill_diagonal(c, C0 * (1 + (K - 1) * SIGNAL))
+    return c
+
+
+def predictions(orders, nus):
+    """Analytical comparison only; not called by simulate()."""
+    d = np.asarray(orders, dtype=float)
+    nu = np.asarray(nus, dtype=float)
+    chi = 2/(d*(d-1))
+    p_e = (nu/d)/np.sum(nu/d)
+    p_i = nu/nu.sum()
+    branch_count = nu*(d-1)
+    total_branch = branch_count.sum()
+    p_b = branch_count/total_branch
+    p_v = branch_count*chi**2/np.sum(branch_count*chi**2)
+    f = float(np.sum(p_e*d))
+    g = float(np.sum(branch_count*(SIGNAL*chi)**2))
+    gagg = float(nu.sum()*(f-1)*SIGNAL**2*np.exp(2*np.sum(p_e*np.log(chi))))
+    delta_b = float(np.log(total_branch/(nu.sum()*(f-1))))
+    delta_j = float(np.log(np.sum(p_b*chi**2))-2*np.sum(p_b*np.log(chi)))
+    delta_w = float(2*np.sum((p_b-p_e)*np.log(chi)))
+    kl_j = float(np.sum(p_b*np.log(p_b/p_v)))
+    kl_w = float(-2*np.sum((p_b-p_e)*np.log(p_b/p_e)))
+    log_ratio = math.log(g/gagg)
+    assert abs(log_ratio-delta_b-delta_j-delta_w) < 1e-12
+    assert abs(delta_j-kl_j) < 1e-12 and abs(delta_w-kl_w) < 1e-12
+    assert delta_b > -1e-12 and delta_j > -1e-12 and delta_w < 1e-12
+    return dict(G=g, G_aggregate=gagg, mean_incidence=float(nu.sum()),
+                mean_branches=float(total_branch), F=f,
+                P_E=p_e.tolist(), P_I=p_i.tolist(), P_B=p_b.tolist(), P_V=p_v.tolist(),
+                delta_B=delta_b, Delta_J=delta_j, Delta_W=delta_w, log_ratio=log_ratio)
+
+
+def cases(pilot):
+    result = []
+    ordinary_n = 2000 if pilot else ORDINARY_ROOTS
+    path_n = 1000 if pilot else PATH_ROOTS
+    result.append(dict(name='pair_only', orders=[2], nus=[10.0], roots=ordinary_n))
+    for d in (3, 20, 50):
+        result.append(dict(name=f'mixture_2_{d}', orders=[2,d],
+                           nus=[10.0,10.0/(d-1)], roots=ordinary_n))
+        result.append(dict(name=f'isolated_{d}', orders=[d], nus=[10.0/(d-1)], roots=ordinary_n))
+    z=(3*math.log(6)-math.log(28))/(7*math.log(6)-math.log(120))
+    v=np.array([6*z-2,3-7*z,-1,z])
+    p_a=.25+(49/200)*v
+    p_b=.25-49/(200*v[1])*v
+    path_orders=np.array([2,4,8,16])
+    path_nus=lambda p: 50*path_orders*p/7.5
+    ga=predictions(path_orders,path_nus(p_a))['G']
+    gb=predictions(path_orders,path_nus(p_b))['G']
+    tc=(1-ga)/(gb-ga)
+    for name,t in [('A',0.0),('critical',tc),('B',1.0)]:
+        p=(1-t)*p_a+t*p_b
+        result.append(dict(name=f'path_{name}', orders=path_orders.tolist(),
+                           nus=path_nus(p).tolist(), roots=path_n, path_t=t))
+    for i, case in enumerate(result):
+        case['seed']=SEED+i*1009
+    return result
+
+
+def _positive_integer(value, name, minimum=1):
+    if isinstance(value, (bool, np.bool_)) or int(value) != value or value < minimum:
+        raise ValueError(f'{name} must be an integer >= {minimum}.')
+    return int(value)
+
+
+@lru_cache(maxsize=7)
+def _label_permutations(k):
+    # For K=4 there are only 24 rows. No approximate row-wise shuffling is used.
+    return np.array(list(itertools.permutations(range(k))), dtype=np.intp)
+
+
+def _validate_symmetric_model(affinity, prior):
+    """The permutation scheme is ONLY for a uniform prior and planted-partition C."""
+    c = np.asarray(affinity, dtype=np.float64)
+    p = np.asarray(prior, dtype=np.float64)
+    if p.ndim != 1 or not 2 <= len(p) <= 8:
+        raise ValueError('The symmetric population implementation supports 2 <= K <= 8.')
+    k = len(p)
+    if not np.isfinite(p).all() or not np.allclose(p, 1.0 / k, rtol=0, atol=1e-14):
+        raise ValueError('Label-permutation sampling requires an exactly uniform prior.')
+    if c.shape != (k, k) or not np.isfinite(c).all() or np.any(c <= 0):
+        raise ValueError('Provide a finite, strictly positive K x K affinity matrix.')
+    expected = np.full_like(c, c[0, 1])
+    np.fill_diagonal(expected, c[0, 0])
+    if not np.allclose(c, expected, rtol=1e-12, atol=1e-12):
+        raise ValueError('This unconditional permutation experiment requires a planted-partition affinity.')
+    return c, p
+
+
+def _validate_orders_and_rates(orders, nus):
+    d = np.asarray(orders, dtype=np.float64)
+    nu = np.asarray(nus, dtype=np.float64)
+    if d.ndim != 1 or len(d) == 0 or nu.shape != d.shape:
+        raise ValueError('orders and nus must be nonempty, equally sized one-dimensional arrays.')
+    if not np.isfinite(d).all() or np.any(d < 2) or np.any(d != np.floor(d)):
+        raise ValueError('All orders must be finite integers >= 2.')
+    if len(np.unique(d)) != len(d):
+        raise ValueError('Duplicate orders are not allowed; combine their rates explicitly.')
+    if not np.isfinite(nu).all() or np.any(nu < 0):
+        raise ValueError('Poisson rates must be finite and nonnegative.')
+    return d.astype(np.int64), nu
+
+
+def _validate_amplitudes(amplitudes, prior):
+    amp = np.asarray(amplitudes, dtype=np.float64)
+    if amp.ndim != 1 or amp.size == 0 or not np.isfinite(amp).all():
+        raise ValueError('amplitudes must be a finite, nonempty one-dimensional sequence.')
+    if np.any(amp <= 0) or np.any(amp >= np.min(prior)):
+        raise ValueError('Require 0 < amplitude < min(prior) to guarantee positive boundary messages.')
+    return amp
+
+
+def initialize_population(population_size, amplitudes, rng, prior):
+    """Return (A, 2, M, K) paired boundary probabilities; draw directions ONCE."""
+    m = _positive_integer(population_size, 'population_size', minimum=2)
+    p = np.asarray(prior, dtype=np.float64)
+    if p.ndim != 1 or not np.isfinite(p).all() or np.any(p <= 0) or not np.isclose(p.sum(), 1):
+        raise ValueError('prior must be a positive normalized vector.')
+    amp = _validate_amplitudes(amplitudes, p)
+    direction = rng.normal(size=(m, len(p)))
+    direction -= direction.mean(axis=-1, keepdims=True)
+    norm = np.linalg.norm(direction, axis=-1, keepdims=True)
+    if np.any(norm == 0):
+        raise FloatingPointError('A zero boundary direction was sampled; no silent replacement is made.')
+    direction /= norm
+    signs = np.array([1.0, -1.0])
+    return (p[None, None, None, :]
+            + amp[:, None, None, None] * signs[None, :, None, None]
+            * direction[None, None, :, :])
+
+
+def population_step(old_pool, orders, nus, rng, affinity, prior, batch_size=256):
+    """One synchronous generation of the COMPLETE normalized BP update.
+
+    Read only old_pool. Both signs and all amplitudes share factor counts,
+    child indices, and each child's uniform label permutation. No Jacobian,
+    attenuation, growth factor, fresh boundary noise, or rescaling is used.
+    """
+    c, p = _validate_symmetric_model(affinity, prior)
+    dlist, rates = _validate_orders_and_rates(orders, nus)
+    batch_size = _positive_integer(batch_size, 'batch_size')
+    old = np.asarray(old_pool, dtype=np.float64)
+    if old.ndim != 4 or old.shape[0] < 1 or old.shape[1] != 2 or old.shape[-1] != len(p) or old.shape[2] < 2:
+        raise ValueError('old_pool must have shape (amplitudes, 2, M>=2, K).')
+    if not np.isfinite(old).all() or np.any(old <= 0):
+        raise FloatingPointError('Invalid input probabilities; probabilities are never clipped.')
+    if not np.allclose(old.sum(axis=-1), 1.0, rtol=0, atol=3e-12):
+        raise ValueError('Input messages are not normalized.')
+    na, _, m, k = old.shape
+    new = np.empty_like(old)
+    permutations = _label_permutations(k)
+    totals = np.zeros(len(dlist), dtype=np.int64)
+    child_messages = 0
+    zero_roots = 0
+    max_degree = 0
+    for offset in range(0, m, batch_size):
+        n = min(batch_size, m - offset)
+        logs = np.zeros((na, 2, n, k), dtype=np.float64)
+        root_degree = np.zeros(n, dtype=np.int64)
+        for layer, (d, nu) in enumerate(zip(dlist, rates)):
+            d = int(d)
+            z = rng.poisson(nu, size=n)
+            root_degree += z
+            factor_roots = np.repeat(np.arange(n), z)
+            nf = len(factor_roots)
+            totals[layer] += nf
+            child_messages += nf * (d - 1)
+            if nf == 0:
+                continue
+            indices = rng.integers(0, m, size=(nf, d - 1))
+            perm = permutations[rng.integers(0, len(permutations), size=(nf, d - 1))]
+            for ai in range(na):
+                for si in range(2):
+                    incoming = np.take_along_axis(old[ai, si][indices], perm, axis=-1)
+                    factors = factor_kernel(incoming, c)
+                    if not np.isfinite(factors).all() or np.any(factors <= 0):
+                        raise FloatingPointError('Nonpositive or nonfinite complete factor message.')
+                    factors /= factors.sum(axis=-1, keepdims=True)
+                    log_factors = np.log(factors)
+                    for label in range(k):
+                        logs[ai, si, :, label] += np.bincount(
+                            factor_roots, weights=log_factors[:, label], minlength=n)
+        q = root_normalize(logs, p)
+        if not np.isfinite(q).all() or np.any(q <= 0):
+            raise FloatingPointError('Root normalization underflow/invalid probability; reduce depth or amplitude.')
+        new[:, :, offset:offset + n, :] = q
+        zero_roots += int(np.count_nonzero(root_degree == 0))
+        max_degree = max(max_degree, int(root_degree.max()))
+    diagnostics = dict(incidence_totals=totals, child_messages=int(child_messages),
+                       zero_factor_roots=zero_roots, max_total_incidence=max_degree)
+    return new, diagnostics
+
+
+def population_observables(pool, amplitudes, prior):
+    """Measure raw paired responses, WITHOUT centering or amplitude resetting."""
+    amp = np.asarray(amplitudes, dtype=np.float64)
+    p = np.asarray(prior, dtype=np.float64)
+    response = (pool[:, 0] - pool[:, 1]) / (2 * amp[:, None, None])
+    squared = np.sum(response**2, axis=-1)
+    mean_square = squared.mean(axis=-1)
+    response_mean = response.mean(axis=1)
+    midpoint = 0.5 * (pool[:, 0] + pool[:, 1]) - p
+    midpoint_energy = np.sum(midpoint**2, axis=-1).mean(axis=-1)
+    pair_energy = amp**2 * mean_square
+    midpoint_ratio = np.divide(midpoint_energy, pair_energy,
+                               out=np.where(midpoint_energy > 0, np.inf, 0.0), where=pair_energy > 0)
+    bias_fraction = np.divide(np.sum(response_mean**2, axis=-1), mean_square,
+                              out=np.zeros_like(mean_square), where=mean_square > 0)
+    return dict(R=mean_square, squared_response=squared,
+                response_component_mean=response_mean,
+                response_mean_bias_fraction=bias_fraction,
+                midpoint_energy=midpoint_energy, midpoint_to_pair_energy=midpoint_ratio,
+                mean_message=pool.mean(axis=2),
+                max_abs_deviation=np.max(np.abs(pool - p), axis=(1, 2, 3)),
+                min_probability=np.min(pool, axis=(1, 2, 3)),
+                normalization_error=np.max(np.abs(pool.sum(axis=-1) - 1), axis=(1, 2)))
+
+
+def simulate_multigeneration(orders, nus, *, population_size, depth, amplitudes,
+                            seed, batch_size=256, affinity=None, prior=None,
+                            save_root_responses=True, progress_callback=None):
+    """Paired finite-depth population dynamics; theoretical predictions are external.
+
+    Each new generation is sampled from the permutation-symmetrized previous
+    empirical message law. M is a message-population size, NOT a graph size.
+    Independent full calls, not particles or depths, are the statistical replicates.
+    """
+    depth = _positive_integer(depth, 'depth', minimum=0)
+    m = _positive_integer(population_size, 'population_size', minimum=2)
+    p0 = np.full(K, 1 / K) if prior is None else prior
+    c0 = affinity_matrix() if affinity is None else affinity
+    c, p = _validate_symmetric_model(c0, p0)
+    dlist, rates = _validate_orders_and_rates(orders, nus)
+    amp = _validate_amplitudes(amplitudes, p)
+    rng = np.random.default_rng(seed)
+    pool = initialize_population(m, amp, rng, p)
+    start = time.perf_counter()
+    history = {}
+    raw_responses = []
+    incidence = []
+    children = []
+    zero_roots = []
+    max_degrees = []
+    for ell in range(depth + 1):
+        if ell:
+            new_pool, counts = population_step(pool, dlist, rates, rng, c, p, batch_size)
+            pool = new_pool  # Only swap AFTER the ENTIRE generation has been completed.
+            incidence.append(counts['incidence_totals'])
+            children.append(counts['child_messages'])
+            zero_roots.append(counts['zero_factor_roots'])
+            max_degrees.append(counts['max_total_incidence'])
+        obs = population_observables(pool, amp, p)
+        for key, value in obs.items():
+            if key == 'squared_response':
+                if save_root_responses:
+                    raw_responses.append(value)
+            else:
+                history.setdefault(key, []).append(value)
+        if ell and progress_callback is not None:
+            progress_callback(ell, obs)
+    result = {key: np.stack(value, axis=0) for key, value in history.items()}
+    result.update(depths=np.arange(depth + 1), amplitudes=amp,
+                  squared_response=(np.stack(raw_responses) if save_root_responses
+                                    else np.empty((0, len(amp), 0))),
+                  last_population=pool,
+                  incidence_totals=np.asarray(incidence, dtype=np.int64).reshape(depth, len(dlist)),
+                  child_messages=np.asarray(children, dtype=np.int64),
+                  zero_factor_roots=np.asarray(zero_roots, dtype=np.int64),
+                  max_total_incidence=np.asarray(max_degrees, dtype=np.int64),
+                  elapsed_seconds=float(time.perf_counter() - start))
+    return result
+
+
+def summarize_multigeneration(R_runs, *, amplitudes, bootstrap_seed, bootstrap_samples=2000):
+    """Student-t pointwise CIs across runs; ratio CIs resample complete trajectories."""
+    values = np.asarray(R_runs, dtype=np.float64)
+    amp = np.asarray(amplitudes, dtype=np.float64)
+    if values.ndim != 3 or values.shape[0] < 2 or values.shape[2] != len(amp):
+        raise ValueError('R_runs must have shape (independent runs >=2, depths, amplitudes).')
+    if not np.isfinite(values).all() or np.any(values < 0):
+        raise ValueError('Responses must be finite and nonnegative.')
+    nboot = _positive_integer(bootstrap_samples, 'bootstrap_samples', minimum=100)
+    nr = values.shape[0]
+    mean = values.mean(axis=0)
+    sd = values.std(axis=0, ddof=1)
+    se = sd / np.sqrt(nr)
+    critical = float(stdtrit(nr - 1, 0.975))
+    halfwidth = critical * se
+    ratio = np.divide(mean[1:], mean[:-1], out=np.full_like(mean[1:], np.nan), where=mean[:-1] > 0)
+    rng = np.random.default_rng(bootstrap_seed)
+    indices = rng.integers(0, nr, size=(nboot, nr))
+    boot_mean = values[indices].mean(axis=1)  # All depths and amplitudes stay together.
+    boot_ratio = np.divide(boot_mean[:, 1:], boot_mean[:, :-1],
+                           out=np.full_like(boot_mean[:, 1:], np.nan), where=boot_mean[:, :-1] > 0)
+    with warnings.catch_warnings():
+        warnings.filterwarnings('ignore', message='All-NaN slice encountered')
+        ratio_low, ratio_high = np.nanquantile(boot_ratio, [0.025, 0.975], axis=0)
+    ref = int(np.argmin(amp))
+    differences = values - values[:, :, ref:ref + 1]
+    diff_mean = differences.mean(axis=0)
+    diff_se = differences.std(axis=0, ddof=1) / np.sqrt(nr)
+    return dict(mean_R=mean, sd_R=sd, se_R=se, halfwidth95_R=halfwidth,
+                ci95_low_R=mean - halfwidth, ci95_high_R=mean + halfwidth,
+                effective_gain=ratio, effective_gain_ci95_low=ratio_low,
+                effective_gain_ci95_high=ratio_high,
+                amplitude_difference_mean=diff_mean, amplitude_difference_se=diff_se,
+                amplitude_difference_halfwidth95=critical * diff_se,
+                reference_amplitude=float(amp[ref]), t_critical=critical,
+                independent_runs=nr, bootstrap_samples=nboot,
+                interval_scope='pointwise approximate intervals, not simultaneous bands')
+
+
+def multigeneration_settings(mode, *, custom_population=20_000, custom_depth=12,
+                             custom_repeats=10, custom_amplitudes=(1e-4,)):
+    """Separate pilot, main, and numerical-control protocols; never silently mix them."""
+    profiles = {
+        'pilot': dict(populations=[2_000], depth=4, repeats=3, amplitudes=[1e-4], mode_id=0),
+        'main': dict(populations=[20_000], depth=12, repeats=10, amplitudes=[1e-4], mode_id=1),
+        'amplitude_check': dict(populations=[20_000], depth=12, repeats=5,
+                                amplitudes=[1e-3, 1e-4, 1e-5], mode_id=2),
+        'population_check': dict(populations=[5_000, 20_000, 80_000], depth=12,
+                                 repeats=5, amplitudes=[1e-4], mode_id=3),
+        'custom': dict(populations=[custom_population], depth=custom_depth,
+                       repeats=custom_repeats, amplitudes=list(custom_amplitudes), mode_id=4),
+    }
+    if mode not in profiles:
+        raise ValueError(f'Unknown MG_MODE={mode!r}; choose from {tuple(profiles)}.')
+    setting = profiles[mode]
+    setting['populations'] = [_positive_integer(m, 'population', 2) for m in setting['populations']]
+    setting['depth'] = _positive_integer(setting['depth'], 'depth', 1)
+    setting['repeats'] = _positive_integer(setting['repeats'], 'repeats', 2)
+    _validate_amplitudes(setting['amplitudes'], np.full(K, 1 / K))
+    return setting

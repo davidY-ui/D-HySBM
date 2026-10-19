@@ -1,0 +1,14 @@
+[package]
+name = "rust_hysbm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_hysbm"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.29", features = ["extension-module"] }
+numpy = "0.29"
+ndarray = "0.17"
+rayon = "1.10"

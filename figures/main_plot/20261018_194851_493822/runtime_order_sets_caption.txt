@@ -1,0 +1,1 @@
+EM runtime in minutes for the same five order sets at N=30000. Colours match the overlap figure. Curves and bands show mean and population standard deviation (ddof=0); dashed lines show linear-stability boundaries.

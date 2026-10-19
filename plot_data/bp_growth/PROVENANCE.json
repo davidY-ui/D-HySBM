@@ -1,0 +1,301 @@
+{
+  "description": "Compact real numeric inputs for all BP notebook plots; no PNG or simulated replacement data.",
+  "source_project": "D:\\loop_SBM\\cite\\hypergraph-message-passing",
+  "source_notebook_sha256": "fd4097a9f6d6be648fe557f9952f70fdfd5cda5af7003177c801c4f40dd18bfd",
+  "files": {
+    "single_generation_30k/results.json": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\results.json",
+      "sha256": "cb0714fb6626757d35abb734555b523067134ccb17f8fba2560cec2d399d37e1",
+      "bytes": 29499
+    },
+    "single_generation_30k/measurements.csv": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\measurements.csv",
+      "sha256": "d951a692be7de59e5da74b19e9c336e0a42ec975046b7e0db9edbe085c0337a2",
+      "bytes": 5472
+    },
+    "single_generation_30k/configurations.json": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\configurations.json",
+      "sha256": "e2119d6aab5202ef793610585cb38845ce2c36d58df04810f6b8a07f6e2b9a1c",
+      "bytes": 2100
+    },
+    "multigeneration_main/summary.json": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\summary.json",
+      "sha256": "2993780224dd747710794c277b2b5d5a2c26922e4b9acec8da6e4bc8bd750054",
+      "bytes": 39769
+    },
+    "multigeneration_main/multigeneration_runs.npz": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\multigeneration_runs.npz",
+      "sha256": "12391c0a86c61b312c12525023dc96fa91b93b0a35f5cca99f6292f7d28a034f",
+      "bytes": 4498
+    },
+    "multigeneration_main/manifest.json": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\manifest.json",
+      "sha256": "b02ca6527c3eced33e7ad8cf876a9b1208f0b330392750a3748f442dbc616afe",
+      "bytes": 27868
+    },
+    "multigeneration_main/measurements.csv": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\measurements.csv",
+      "sha256": "636f7d1ae38cc51392c217f578b78bb95955242a8969be73866e7b134fa7a987",
+      "bytes": 6571
+    },
+    "multigeneration_main/diagnostics.csv": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\diagnostics.csv",
+      "sha256": "513322cd3c4e916a59ff5bbd9f59b835b3b6211a58ce9101eaa46fd244a84145",
+      "bytes": 34589
+    },
+    "multigeneration_main/executed_function_sources.txt": {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\executed_function_sources.txt",
+      "sha256": "610d3ad7cfd5247a08c7803e5783ebc56e9fb95577cd7356725bd4f5d2244061",
+      "bytes": 19066
+    }
+  },
+  "original_array_verification": [
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\pair_only_raw.npz",
+      "sha256": "4f840764a1f68bbe9e1912e89d6f68f2a6dc147a1e3e7bb2ded285287ef24356",
+      "bytes": 1947606,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\mixture_2_3_raw.npz",
+      "sha256": "4f89609888406a47986b749dc69edd7c0e4e66576485823fb3f3fb9f0d16c0da",
+      "bytes": 2021680,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\isolated_3_raw.npz",
+      "sha256": "3d4cfb138919da766edd779672c27bdbe90eb94f9957aa0d840844ce91329838",
+      "bytes": 1889686,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\mixture_2_20_raw.npz",
+      "sha256": "55342c97c0e148125bcb95f62d69211351a9a7355a0fc0540c4e517832747fc4",
+      "bytes": 1990311,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\isolated_20_raw.npz",
+      "sha256": "48d77b990a12c722dcdbce99419f8cac8ef70f2715dfdc05c160f3f3029aef4b",
+      "bytes": 820004,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\mixture_2_50_raw.npz",
+      "sha256": "de4ce0e27ba7d0433fb8759db308170e51964bd761b61b0df3b0049a306f588a",
+      "bytes": 1977283,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\isolated_50_raw.npz",
+      "sha256": "6fbe09e67a265fb6f5d2c311be8600e0da3879cf75028711a4cd012821bdabf5",
+      "bytes": 395354,
+      "sample_shape": [
+        100000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\path_A_raw.npz",
+      "sha256": "5719fd9a6363bc1c1316ccd99bcc5e3f943f740de7952dd357614aadffd73dbd",
+      "bytes": 643160,
+      "sample_shape": [
+        30000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\path_critical_raw.npz",
+      "sha256": "216d633109bc41c3afba721b1ffa5767b46faac66ddfe9d7c0284046a67be09c",
+      "bytes": 656954,
+      "sample_shape": [
+        30000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_output\\full\\path_B_raw.npz",
+      "sha256": "e487e41f48f975535f106fdf05d168413df3b3e6966a74d6195a36c632b045e9",
+      "bytes": 646099,
+      "sample_shape": [
+        30000,
+        3
+      ],
+      "check": "Published means and SEs match original squared-response arrays."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run00.npz",
+      "sha256": "2a350b6340838f85b5dc002638c223b3234471223ae4b360eb4995683d5d0950",
+      "bytes": 2852787,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run01.npz",
+      "sha256": "407f728e2afe24f4a62746852bb910c893fb4ccc6d2975940400f8b14c464a8b",
+      "bytes": 2851946,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run02.npz",
+      "sha256": "5f0131bd9589c915b5667bf2e6074d997cd3c446f76d158a2d686ce2150597d8",
+      "bytes": 2852352,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run03.npz",
+      "sha256": "56bb911321e5db629c8f43d616fc95a906c4a0909d9cfd9b91aeb18bd4940c05",
+      "bytes": 2852375,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run04.npz",
+      "sha256": "8e4ef1fde175d7c2e4291b3f7b104b727b4908265c91f57aec248e84d5df1b9a",
+      "bytes": 2852787,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run05.npz",
+      "sha256": "3765dcf4b5573bb913223520109c1f77cb3f53c3fe4f77d5f3c8b896dcf41213",
+      "bytes": 2852844,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run06.npz",
+      "sha256": "88a4ab11f962cd3d714354cae4f94e47aa885276975400049a32d53284d176e0",
+      "bytes": 2852780,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run07.npz",
+      "sha256": "225adc42a1dffa2467d879f89ae00bdfba60631d372f2f4be4820f1c15b4cdce",
+      "bytes": 2852820,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run08.npz",
+      "sha256": "aeac9b9ffaf4866a6c34e7cd9be158bf5004408df0b91474174fbbabf85c6428",
+      "bytes": 2852627,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_A_M20000_run09.npz",
+      "sha256": "8b90465d630dae4a3bcb0cebec62ebcd5f58bfd193a1570b84df9d396e0d65f4",
+      "bytes": 2852450,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run00.npz",
+      "sha256": "f70c8fc05916ca974eb9ecfc5cc57db174f536a48130e62821eb03cfec78208c",
+      "bytes": 2943940,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run01.npz",
+      "sha256": "75031466574e9f30bd6cdafdc05a8cb8368a2aa73cf6d5573da21653898fd878",
+      "bytes": 2943549,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run02.npz",
+      "sha256": "7bd90b116e460d100d9c2880d60ee618a9ff8c53ce24d084db66482f306850b8",
+      "bytes": 2944288,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run03.npz",
+      "sha256": "0c5436cd47e1dfde84800be98f8bcdd5040b2bdd0719847f20d17771d8f13449",
+      "bytes": 2944722,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run04.npz",
+      "sha256": "0472fe88644e5d55d51f6ad29646befdd8bb27d6849882656618a548fd9c49b8",
+      "bytes": 2944376,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run05.npz",
+      "sha256": "8da34c21420581a04dc41f84edecd2ef784ab90ee29150bdd977188d52490937",
+      "bytes": 2944940,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run06.npz",
+      "sha256": "8f9be47cafda0cbe00f37deaacd5c2b142938a67dd04f127161d39bd39d956ad",
+      "bytes": 2944246,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run07.npz",
+      "sha256": "e58df4701564890214d2e069ae373637b34482a5e588a18a4153297e7442aa17",
+      "bytes": 2944217,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run08.npz",
+      "sha256": "3fce8ac700c7702d6833d0d11ceed374b48d8d7acde67a5b8fb2ab207333b98c",
+      "bytes": 2944456,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    },
+    {
+      "source_path": "D:\\loop_SBM\\cite\\hypergraph-message-passing\\bp_growth_multigeneration\\main_20260920T044129_373762Z\\path_B_M20000_run09.npz",
+      "sha256": "29e7eb076a77a3664807159d911914eeee711f7b66c855ea0031ce58cee9592a",
+      "bytes": 2944841,
+      "check": "Original run SHA matches manifest; R exactly matches bundled trajectory aggregate."
+    }
+  ],
+  "single_generation": {
+    "ordinary_roots": 100000,
+    "path_roots": 30000,
+    "total_roots": 790000,
+    "cases": 10,
+    "amplitudes": [
+      0.001,
+      0.0001,
+      1e-05
+    ],
+    "note": "Historical 30k-path campaign with correct A/critical/B endpoints; not the current 200k-path rerun configuration. Never pooled with 200k outputs."
+  },
+  "multigeneration": {
+    "mode": "main",
+    "population_size": 20000,
+    "depth": 12,
+    "independent_runs_per_case": 10,
+    "cases": [
+      "path_A",
+      "path_B"
+    ],
+    "amplitudes": [
+      0.0001
+    ],
+    "note": "Completed original main campaign; all 20 source NPZ hashes verified against manifest."
+  },
+  "omitted": "Particlewise NPZs and existing images are not required for plots. Their source hashes and verification are recorded above. All plotted values and independent-run trajectories are bundled."
+}

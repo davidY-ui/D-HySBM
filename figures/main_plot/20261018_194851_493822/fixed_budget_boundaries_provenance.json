@@ -1,0 +1,20 @@
+{
+  "stem": "fixed_budget_boundaries",
+  "caption": "Recovery and order-resolved BP-stability boundaries for D={2,3} at fixed incidence budgets kbar_h=3 and 12. Empirical boundaries use the first downward crossing of mean overlap at Q=0.1, with linear interpolation after excluding epsilon=0. Open triangles indicate scan limits. Negative theoretical thresholds do not define a boundary at positive epsilon.",
+  "sources": [
+    {
+      "path": "data/collapse/synthetic_fixed_budget/summary/final_results_fixed_budget_D2_3_N10000_K4_c010_kbar3_seeds5.npz",
+      "sha256": "f79749066b8a187f1c80d76b0d54a6130c9be305fed93a839324edee0c75b11a"
+    },
+    {
+      "path": "data/collapse/synthetic_fixed_budget/summary/final_results_fixed_budget_D2_3_N10000_K4_c010_kbar12_seeds5.npz",
+      "sha256": "1e8bc6adc8e8c94752c6eecd13c3fe2a3b0db95e5cf9b3b0668f5c2d6a746e53"
+    }
+  ],
+  "statistics_ddof": 0,
+  "png_dpi": 600,
+  "figure_size_mm": [
+    180.0,
+    120.0
+  ]
+}

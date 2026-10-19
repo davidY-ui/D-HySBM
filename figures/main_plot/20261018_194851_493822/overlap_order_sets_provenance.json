@@ -1,0 +1,16 @@
+{
+  "stem": "overlap_order_sets",
+  "caption": "Overlap for five hyperedge-order sets at N=30000, K=4, c_2=10. Curves and shaded bands show the mean and population standard deviation (ddof=0) across 5 sampling seeds. Dashed lines show the order-resolved linear-stability boundaries; beta_d=1 for every retained order.",
+  "sources": [
+    {
+      "path": "data/synthetic_loop/N30000/shared_samples_hsbm_new_approx/final_results_hsbm_approx_with_overlap_active.npz",
+      "sha256": "43df05520d01697ee2d49b9ae38d2adcf1696c9c13e05bcf3ae4f370f6c5c187"
+    }
+  ],
+  "statistics_ddof": 0,
+  "png_dpi": 600,
+  "figure_size_mm": [
+    180.0,
+    120.0
+  ]
+}

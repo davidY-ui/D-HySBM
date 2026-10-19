@@ -1,0 +1,16 @@
+{
+  "stem": "runtime_order_sets",
+  "caption": "EM runtime in minutes for the same five order sets at N=30000. Colours match the overlap figure. Curves and bands show mean and population standard deviation (ddof=0); dashed lines show linear-stability boundaries.",
+  "sources": [
+    {
+      "path": "data/synthetic_loop/N30000/shared_samples_hsbm_new_approx/final_results_hsbm_approx_with_overlap_active.npz",
+      "sha256": "43df05520d01697ee2d49b9ae38d2adcf1696c9c13e05bcf3ae4f370f6c5c187"
+    }
+  ],
+  "statistics_ddof": 0,
+  "png_dpi": 600,
+  "figure_size_mm": [
+    180.0,
+    120.0
+  ]
+}

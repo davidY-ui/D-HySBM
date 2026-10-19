@@ -1,0 +1,157 @@
+{
+  "description": "Existing experiment summaries used by the published plotting notebook; raw hypergraphs and inference outputs are not required.",
+  "files": [
+    {
+      "file": "final_results_hsbm_approx_with_overlap_active.npz",
+      "source_relative_path": "data/synthetic_loop/N30000/shared_samples_hsbm_new_approx/final_results_hsbm_approx_with_overlap_active.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 203903,
+      "sha256": "43df05520d01697ee2d49b9ae38d2adcf1696c9c13e05bcf3ae4f370f6c5c187",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_fixed_budget_D2_3_N10000_K4_c010_kbar3_seeds5.npz",
+      "source_relative_path": "data/collapse/synthetic_fixed_budget/summary/final_results_fixed_budget_D2_3_N10000_K4_c010_kbar3_seeds5.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 25464,
+      "sha256": "f79749066b8a187f1c80d76b0d54a6130c9be305fed93a839324edee0c75b11a",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_fixed_budget_D2_3_N10000_K4_c010_kbar12_seeds5.npz",
+      "source_relative_path": "data/collapse/synthetic_fixed_budget/summary/final_results_fixed_budget_D2_3_N10000_K4_c010_kbar12_seeds5.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 26792,
+      "sha256": "1e8bc6adc8e8c94752c6eecd13c3fe2a3b0db95e5cf9b3b0668f5c2d6a746e53",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_ALLR_mean4.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_ALLR_mean4.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 28842,
+      "sha256": "b51eaa889dc3d0d4fdf0f9e6a099e41073e97aae10b07074f7c38c736611779f",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r1.000000_1.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r1.000000_1.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "3eaae3dfd7c9e23e3fa9f9f8e9465cd7bf4bf4692c3b9a240f467fe11a8a3c32",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r1.000000_2.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r1.000000_2.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "c52276504200a7b05f968fb998923b0704e75bd040147b8d43442b3e64c956e5",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r1.000000_3.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r1.000000_3.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "3e5ffeeb282fc481a60c4e899916e25cdf40dd6413746ffcb2e4a16e66a9a39a",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r1.000000_4.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r1.000000_4.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "9d3d6eb7a08de8e2b981a95c986bef3168459414434de3bef64f2c949f14c0cc",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r1.000000_5.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r1.000000_5.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "212ba4f92d4bb24a38c13fc10dfc85831ef71acf812f58283def58f550dabe0a",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r2.212515_1.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r2.212515_1.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "21fa1b771d367bbf48e8274ad576c3e01473647387db420fc7f4709bdaded5ab",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r2.212515_2.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r2.212515_2.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "b44f63a653611ab8c9ecd89d451e434da2263a328f75e85da564436e3d13b3e0",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r2.212515_3.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r2.212515_3.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "6238eef21a08f4512c346bddb14beaa26aa7668655752d56444b1f0847aaaaa6",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r2.212515_4.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r2.212515_4.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "8972bf869a3b7518475d9ea3efb6f057cbf2f9e9dd79076e51069459aceba61e",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r2.212515_5.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r2.212515_5.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "3e88bd94bb49b73cb2ab80dce2414deebbcf41057f62baaa216ddf2665947f04",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r3.000000_1.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r3.000000_1.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "ad9cf961b818698ff5bdf1f0bca460a7f4914aa8b7bc7f256c2032874011f97d",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r3.000000_2.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r3.000000_2.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "529c17d168e19017b2b702690bc3ca4232f96f6f78df7289b3574975ec8b8007",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r3.000000_3.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r3.000000_3.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "66a11c23a5e2dda4e0cba3d64e054c355e117163460e9c9b9d810f8c0094dc21",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r3.000000_4.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r3.000000_4.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "1b287946b302df9e0ddb52321adcd0e8871929d81159579c9ee17c9b713ca80b",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    },
+    {
+      "file": "final_results_signal_compensation_D2_3_kbar8_r3.000000_5.npz",
+      "source_relative_path": "data/signal/final_results_signal_compensation_D2_3_kbar8_r3.000000_5.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 96718,
+      "sha256": "9bdd83d1744995212f6c8b14508d1e3a56904b2c75a969ee15bdd17c7a2602d3",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    }
+  ]
+}

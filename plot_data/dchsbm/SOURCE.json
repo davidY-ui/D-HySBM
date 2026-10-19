@@ -1,0 +1,13 @@
+{
+  "description": "Existing experiment summaries used by the published plotting notebook; raw hypergraphs and inference outputs are not required.",
+  "files": [
+    {
+      "file": "final_results_dchsbm_all_zetas_5_samples.npz",
+      "source_relative_path": "data/synthetic_loop/N30000/shared_samples_dchsbm_new/final_results_dchsbm_all_zetas_5_samples.npz",
+      "source_project": "D-hypergraph-message-passing",
+      "size_bytes": 140140,
+      "sha256": "64568a508537c83e07e60afd6b240a6773fceeeed4b4db415bcb48d0d0c57718",
+      "transformation": "None; copied byte for byte from the existing experiment summary."
+    }
+  ]
+}

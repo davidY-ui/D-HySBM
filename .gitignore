@@ -1,0 +1,43 @@
+# Python, Jupyter and environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.scipy_tmp/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Rust / native build products; keep Cargo.toml, Cargo.lock and source.
+target/
+build/
+dist/
+*.so
+*.dll
+*.dylib
+*.pyd
+*.o
+*.obj
+*.rlib
+*.rmeta
+*.whl
+
+# Downloaded / generated data and experiment output.
+# Small, redistributable demonstrations belong in examples/.
+/data/
+/outputs/
+/pre_physical_output/
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+﻿experiment,file,N,seeds
+Order sets,final_results_hsbm_approx_with_overlap_active.npz,30000,5
+Fixed budget,final_results_fixed_budget_D2_3_N10000_K4_c010_kbar3_seeds5.npz,10000,5
+Fixed budget,final_results_fixed_budget_D2_3_N10000_K4_c010_kbar12_seeds5.npz,10000,5
+Signal compensation,final_results_signal_compensation_D2_3_kbar8_ALLR_mean4.npz,10000,5

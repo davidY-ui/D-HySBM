@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and acknowledge the Ruggeri et al. framework listed in references."
+title: "D-HySBM: Hypergraph Message Passing"
+type: software
+authors:
+  - family-names: "Ye"
+    given-names: "Dawei"
+abstract: "Order-resolved hypergraph stochastic block model inference, degree-corrected extensions, synthetic sampling, and Rust-accelerated belief propagation. The main architecture builds on the framework of Ruggeri, Lonardi, and De Bacco (2024)."
+keywords:
+  - hypergraphs
+  - community detection
+  - belief propagation
+  - stochastic block models
+references:
+  - type: article
+    title: "Message-passing on hypergraphs: detectability, phase transitions and higher-order information"
+    authors:
+      - family-names: "Ruggeri"
+        given-names: "Nicolò"
+      - family-names: "Lonardi"
+        given-names: "Alessandro"
+      - family-names: "De Bacco"
+        given-names: "Caterina"
+    journal: "Journal of Statistical Mechanics: Theory and Experiment"
+    year: 2024
+    volume: "2024"
+    issue: "4"
+    start: "043403"
+    doi: "10.1088/1742-5468/ad343b"
