@@ -1,0 +1,30 @@
+{
+  "fold": 3,
+  "train_positives": 10164,
+  "test_positives": 2540,
+  "test_negatives": 2540,
+  "train_fraction": 0.8000629722921915,
+  "train_isolated_nodes": 0,
+  "by_order": {
+    "2": {
+      "train": 6199,
+      "test_positive": 1549,
+      "test_negative": 1549
+    },
+    "3": {
+      "train": 3680,
+      "test_positive": 920,
+      "test_negative": 920
+    },
+    "4": {
+      "train": 278,
+      "test_positive": 69,
+      "test_negative": 69
+    },
+    "5": {
+      "train": 7,
+      "test_positive": 2,
+      "test_negative": 2
+    }
+  }
+}
