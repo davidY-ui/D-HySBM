@@ -1,0 +1,418 @@
+/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/src/data/representation/incidence_hypergraph.py:122: UserWarning: The configurations matrix contains elements different from 0 and 1. All non-zero elements will be converted to 1.
+  warnings.warn(
+WARNING:root:Warning: true node assignments are not provided. Overlap evaluation will be skipped.
+INFO:root:Selected hyperedge sizes: [2, 4, 5], fix_hye_size: None
+INFO:root:Direct grouped p update; no W/beta calibration or layer-scale constraints.
+INFO:root:FVS nodes: 0, FVS average degree: None
+INFO:root:EM iteration 0
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 202.2608556746598
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 247.348366688108
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 188.83318463245004
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 166.26300265153833
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 119.64260434011427
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 84.57313977053684
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 76.15287465765898
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 16.06070025904542
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 30.260598225944815
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 62.37396978141602
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 40.58138749031288
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 26.362286095583205
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 18.992229442513885
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 6.963414472863683
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 22.72395066872546
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 9.598632047906605
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 10.496168988583724
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 11.368371395522727
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 5.920935129992218
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 5.4592860360665005
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 5.15673186335495
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 5.7954084211402135
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 5.060204104539953
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 50 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 51 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 52 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 53 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 54 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 55 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 56 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 57 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 58 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 59 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 60 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 61 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 62 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 63 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 64 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 65 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 66 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 67 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 68 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 69 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 70 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 71 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 72 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 73 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 74 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 75 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 2178.157245827064
+INFO:root:EM iteration 1
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 1.5471971942097364e-14
+INFO:root:EM stopped by em_thresh, total time = 77.5333 s
+INFO:root:free_energy:
+15785.984050817417
+INFO:root:Direct grouped p update; no W/beta calibration or layer-scale constraints.
+INFO:root:FVS nodes: 0, FVS average degree: None
+INFO:root:EM iteration 0
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 168.55687347139656
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 233.1429304968238
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 190.88867989939806
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 158.51938772204718
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 120.30337640201947
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 107.69710210876192
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 98.57128361824789
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 65.8599168078224
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 74.82032906057017
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 66.58745801914397
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 31.102196742902233
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 48.85609329644067
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 19.094667883452406
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 25.058727559756438
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 15.166704614386742
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 8.440315734616323
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 15.75875275321665
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 5.352924122058098
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 7.3501154619781826
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 6.057413327122466
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 50 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 51 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 52 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 53 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 54 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 55 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 56 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 57 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 58 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 59 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 60 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 61 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 62 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 63 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 64 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 65 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 66 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 67 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 68 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 69 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 70 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 71 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 2185.6927270599854
+INFO:root:EM iteration 1
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 1.579094861064228e-14
+INFO:root:EM stopped by em_thresh, total time = 76.4900 s
+INFO:root:free_energy:
+15785.984050817257
+INFO:root:Direct grouped p update; no W/beta calibration or layer-scale constraints.
+INFO:root:FVS nodes: 0, FVS average degree: None
+INFO:root:EM iteration 0
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 168.59793157970248
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 232.24164684988435
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 214.78408712394324
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 162.44078034957136
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 135.75381259509695
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 79.81112417786589
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 71.30514927289124
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 66.50771952152229
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 46.69717277606603
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 37.476259460161344
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 15.185808747616203
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 34.62530707247451
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 7.929214870237934
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 21.415553900990876
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 18.57407951866029
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 6.330498805862006
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 23.056339221814163
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 5.358650119085746
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 6.474004855632895
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 5.062516905742826
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 5.799451686614059
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 50 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 51 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 52 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 53 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 54 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 55 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 56 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 57 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 58 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 59 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 60 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 61 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 62 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 63 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 64 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 65 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 66 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 67 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 68 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 69 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 70 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 71 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 72 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 73 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 74 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 75 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 76 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 2151.7872119475833
+INFO:root:EM iteration 1
+INFO:root:	Message passing...
+INFO:root:		MP step 0 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 1 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 2 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 3 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 4 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 5 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 6 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 7 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 8 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 9 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 10 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 11 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 12 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 13 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 14 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 15 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 16 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 17 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 18 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 19 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 20 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 21 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 22 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 23 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 24 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 25 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 26 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 27 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 28 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 29 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 30 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 31 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 32 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 33 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 34 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 35 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 36 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 37 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 38 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 39 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 40 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 41 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 42 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 43 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 44 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 45 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 46 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 47 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 48 - difference in log-marginals from previous iter: 0.0
+INFO:root:		MP step 49 - difference in log-marginals from previous iter: 0.0
+INFO:root:	Message passing threshold passed. Message passing terminated.
+INFO:root:EM parameter difference: 1.5559301981281355e-14
+INFO:root:EM stopped by em_thresh, total time = 38.3278 s
+INFO:root:free_energy:
+15785.984050816951
