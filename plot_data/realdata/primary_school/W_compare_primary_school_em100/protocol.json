@@ -1,0 +1,122 @@
+{
+  "configuration": {
+    "em_iter": 100,
+    "em_thresh": 1e-05,
+    "mp_iter": 2000,
+    "mp_thresh": 1e-05,
+    "mp_patience": 50,
+    "train_rounds": 3,
+    "dropout": 0.0,
+    "dropout_vertex": 0.0,
+    "dropout_vertex_FVS": 0.8,
+    "dropout_vertex_rest": 0.8,
+    "dropout_FVS": 0.0,
+    "K": 11,
+    "modes": [
+      "w-differ",
+      "w-share",
+      "p-differ",
+      "p-share"
+    ],
+    "order_sets": [
+      [
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "train_list": [
+      "primary_school_train0",
+      "primary_school_train1",
+      "primary_school_train2",
+      "primary_school_train3",
+      "primary_school_train4"
+    ],
+    "seeds": [
+      234
+    ],
+    "inner_jobs": 1,
+    "model": "hsbm",
+    "node_assignments": null
+  },
+  "inputs": {
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/main_message_passing_loop_new.py": "a5a1c1701a4b023f1cb5f881e50fa33261e7e2d11287d2963d49ee7d23e36e2a",
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/data/processed_input/primary_school_train0.npz": "8d1b096f8b0371f082a52cdf1da3f1f2c57c83effb5a9ab162d19e20261c799c",
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/data/processed_input/primary_school_train1.npz": "6e035611d8f40d262f54a92dde5b1a4f36b9bca1f1e1c19213ffcf11515e7a3b",
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/data/processed_input/primary_school_train2.npz": "0eb7854f49d8c6574e6428e02dbc7526e2ece29592af6f65dd2e8a8c2941c773",
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/data/processed_input/primary_school_train3.npz": "cf4619bf5ac1630b9c365f07c3a7582c08d5c75c179aaf2d9baf6bbd9fc27abc",
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/data/processed_input/primary_school_train4.npz": "3d437b255da267a4beb4e8e52d81d7822160258976744fd12caaa45524ca7ad6"
+  },
+  "sources": {
+    "/work/home/yedawei/loop_SBM/cite/hypergraph-message-passing/main_message_passing_loop_new.py": "a5a1c1701a4b023f1cb5f881e50fa33261e7e2d11287d2963d49ee7d23e36e2a",
+    "comparison_runner": "f183d028127f3bba8807dc82df9f3f45d0564bc8becf0ca2611c6fe1482d5ce5",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/data/conversion.py": "c18693c6558a2896a5b4eae668115f952008636f53294ae997ce1132b6503673",
+    "src/data/data_io.py": "d24d0eaf1911862af2736bdf797bd3849224c015dcabae596d2b619423b5e1e3",
+    "src/data/load_json.py": "64922d6742f4381522b40ae96cef272493d92b9c756dcd533ac02600c053f1a2",
+    "src/data/representation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/data/representation/binary_hypergraph.py": "d7695e83d22d3eedb9f06c817133a3a2615cffc5e7e0d6b099510e824251ad73",
+    "src/data/representation/incidence_hypergraph.py": "a5f61d80c6cd8ad729cc2a8de4a933db6cad33d899a3922b7885debc795f1f93",
+    "src/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/model/dynamic_updates.py": "a1968db4a9cdd41dd57aac757969da1b33c0c7561a1f155ce6a513f502f1ad5b",
+    "src/model/dynamic_updates_mpi.py": "03861f824d016136b61025f0dc8e1bb36105aba0562a0cd93f602269cb36da35",
+    "src/model/dynamic_updates_old.py": "e72d286c65e779bb02f2c373c9ba2268bc6e2d9850fc18ca8a2545e457b2dc83",
+    "src/model/factor_G_simplize.py": "643d9aa63edd976ca89c21cf5ee0f8a43c3379d4b5f173a349d55a979d22a588",
+    "src/model/fvs_function.py": "811b84ca721fd3da2e62212bb74f711074e77040324526f19e16934ee1790819",
+    "src/model/fvs_function_old.py": "6380c80aad8ed665f48625138da92f408ffa030bf19b0b89fcd34c7a11d2fd6a",
+    "src/model/hye_overlap_function.py": "742cfd374d2f4b952cbd2db854d698f82fb9e1111f356ff3ca4ecfe4da70d479",
+    "src/model/hypergraph_block_model.py": "437427251665baa7e7b72ed8d1c52efdaa5844dd8490c95ef69b8cc681bfe656",
+    "src/model/hypergraph_block_model_old.py": "604558d6cbb53d4a110fed119b72324740cbd8559a552b29edfd16fc08278da8",
+    "src/model/hypergraph_block_model_rust.py": "316bcf758cff65c853d4cbc96c03317ae3073f7e1ba07726893e5c378027bbfd",
+    "src/model/hypergraph_block_model_rust_old.py": "a75e86b8cb685b24dc0af5efe8f146ca1ed41c3f7955d2eed37f23a505fe406d",
+    "src/model/kappa.py": "c1838dcb28bf6a1907b12d108f998a0accd01a7c9f8d9ab246b666dbd727babe",
+    "src/model/loop_degree_corrected_hypergraph_block_model_rust.py": "6554079f546e94ea4441e73b0eb218c6bc802b07ad1e6652480b86766783eee9",
+    "src/model/loop_hypergraph_block_model.py": "346452528b4eb791c8aa1b1f690d1ab93fc9ae024b1d183747ad463248d89dbc",
+    "src/model/loop_hypergraph_block_model_old.py": "248a79f85320c7e29a8b6805c1484229f7746694686a51f454207b358e0501fb",
+    "src/model/loop_hypergraph_block_model_rust.py": "0b359c7424ff2844dd632854e0946e5c883b94f1d46c2c332334a56a1923a2f8",
+    "src/model/loop_hypergraph_block_model_rust_new.py": "da868a91b82395c6bddc8c240f3355e7d8308487ea5253f02ebd8f552b7e8f4c",
+    "src/model/loop_hypergraph_block_model_rust_old.py": "a41f8ba80a8680afce62f07e776ebc206f943c8cfea8627746f7cd44d1654995",
+    "src/model/loop_hypergraph_block_model_rust_old2.py": "2e116ea2cb5bfb10ac9f13e0db60e8890dd63779ff2e85d20351d436bf418d60",
+    "src/model/loop_hypergraph_block_model_rust_p.py": "c56ab0abe8c210cb7b627271e51aebcf205ceb6f762ffcca1282cc0a99dd004a",
+    "src/model/loop_hypergraph_block_model_rust_prior.py": "a9ec7050b1a823e5e60f8bcbc15db5c6edaf4abf06cb87f9f7bdbd0390983f46",
+    "src/model/loop_hypergraph_block_model_soft.py": "e9af075a244fc1a97f4a35d3a822a6f8ae07e8d848564060ff8cd9603f4701b2",
+    "src/model/numerical.py": "99c8c95a680e6a262a3d321a04da039e4cbddd0ed0bb892dc7747f2712e9c5b7",
+    "src/model/sampling.py": "495e56666f0ba97ad7e503505906161284311e38740780b19bfe09366af2591f",
+    "src/model/sampling_dc.py": "5f1a2daa5d44b817c134448ebbb40288a1c1f6504a316f1aa59f44e38f0c5ba7",
+    "src/model/sampling_old.py": "6f385e5e8cfb241dd15e24f704195e70ae4b2d0350dbacd0b6bf4b65d130a0fb"
+  },
+  "numpy_version": "1.22.3",
+  "metric_scope": "original training metrics; no AUC computed"
+}

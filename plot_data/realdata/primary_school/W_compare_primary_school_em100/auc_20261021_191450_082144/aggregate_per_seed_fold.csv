@@ -1,0 +1,161 @@
+﻿model,mode,train_orders,fold,dataset,seed,macro_auc,weighted_auc
+w-differ,w-differ,[2],0,primary_school_train0,234,0.8136382934443288,0.8136382934443287
+w-differ,w-differ,[2],1,primary_school_train1,234,0.8186570239334027,0.8186570239334026
+w-differ,w-differ,[2],2,primary_school_train2,234,0.8216686784599375,0.8216686784599375
+w-differ,w-differ,[2],3,primary_school_train3,234,0.8208675832009739,0.8208675832009739
+w-differ,w-differ,[2],4,primary_school_train4,234,0.8385067773165052,0.8385067773165052
+w-differ,w-differ,"[2, 3]",0,primary_school_train0,234,0.8756580622294042,0.8575536877310332
+w-differ,w-differ,"[2, 3]",1,primary_school_train1,234,0.8647863552852357,0.8463653207352182
+w-differ,w-differ,"[2, 3]",2,primary_school_train2,234,0.8790232759201486,0.8627350690757535
+w-differ,w-differ,"[2, 3]",3,primary_school_train3,234,0.8663815782964882,0.849694431968564
+w-differ,w-differ,"[2, 3]",4,primary_school_train4,234,0.8783705902971206,0.8646081760761333
+w-differ,w-differ,"[2, 4]",0,primary_school_train0,234,0.8792166238399626,0.8182792285372932
+w-differ,w-differ,"[2, 4]",1,primary_school_train1,234,0.8842279428316593,0.8282416794674861
+w-differ,w-differ,"[2, 4]",2,primary_school_train2,234,0.8755522602020711,0.8251172394435988
+w-differ,w-differ,"[2, 4]",3,primary_school_train3,234,0.864511820107343,0.8016754022232065
+w-differ,w-differ,"[2, 4]",4,primary_school_train4,234,0.8710404703085666,0.8122546158765876
+w-differ,w-differ,"[2, 5]",0,primary_school_train0,234,0.9071621227887616,0.8145635184569338
+w-differ,w-differ,"[2, 5]",1,primary_school_train1,234,0.6591859521331946,0.817961631193881
+w-differ,w-differ,"[2, 5]",2,primary_school_train2,234,0.9136427679500521,0.8275081060857997
+w-differ,w-differ,"[2, 5]",3,primary_school_train3,234,0.6576131917924515,0.814819902110261
+w-differ,w-differ,"[2, 5]",4,primary_school_train4,234,0.9162132548915334,0.8325346217122389
+w-differ,w-differ,"[2, 3, 4]",0,primary_school_train0,234,0.909820807758179,0.8594111057383604
+w-differ,w-differ,"[2, 3, 4]",1,primary_school_train1,234,0.8999887072468438,0.8506777563788046
+w-differ,w-differ,"[2, 3, 4]",2,primary_school_train2,234,0.8857115184641325,0.8583354872037358
+w-differ,w-differ,"[2, 3, 4]",3,primary_school_train3,234,0.8983044048156392,0.853545529412313
+w-differ,w-differ,"[2, 3, 4]",4,primary_school_train4,234,0.8975363146147388,0.8675521902506347
+w-differ,w-differ,"[2, 3, 5]",0,primary_school_train0,234,0.9180937437586346,0.8586671180049655
+w-differ,w-differ,"[2, 3, 5]",1,primary_school_train1,234,0.7523597533156691,0.8614558397672445
+w-differ,w-differ,"[2, 3, 5]",2,primary_school_train2,234,0.7495407836220672,0.8574745608032971
+w-differ,w-differ,"[2, 3, 5]",3,primary_school_train3,234,0.8306183947961155,0.8527020339409233
+w-differ,w-differ,"[2, 3, 5]",4,primary_school_train4,234,0.9131547654936831,0.8526074382470921
+w-differ,w-differ,"[2, 4, 5]",0,primary_school_train0,234,0.9136645614333142,0.8185972259314609
+w-differ,w-differ,"[2, 4, 5]",1,primary_school_train1,234,0.7542780663566155,0.8194853597140699
+w-differ,w-differ,"[2, 4, 5]",2,primary_school_train2,234,0.7503853083969408,0.8247652609984832
+w-differ,w-differ,"[2, 4, 5]",3,primary_school_train3,234,0.9291566959091085,0.8288300181775948
+w-differ,w-differ,"[2, 4, 5]",4,primary_school_train4,234,0.9149577042548552,0.8184981508849217
+w-differ,w-differ,"[2, 3, 4, 5]",0,primary_school_train0,234,0.9233435876708912,0.8650439106678409
+w-differ,w-differ,"[2, 3, 4, 5]",1,primary_school_train1,234,0.868281341628566,0.8677321416945467
+w-differ,w-differ,"[2, 3, 4, 5]",2,primary_school_train2,234,0.7902703836408418,0.8613452166148838
+w-differ,w-differ,"[2, 3, 4, 5]",3,primary_school_train3,234,0.8055731189640641,0.863281052527548
+w-differ,w-differ,"[2, 3, 4, 5]",4,primary_school_train4,234,0.9180479666030761,0.8566209515609782
+w-share,w-share,[2],0,primary_school_train0,234,0.8136382934443288,0.8136382934443287
+w-share,w-share,[2],1,primary_school_train1,234,0.8186570239334027,0.8186570239334026
+w-share,w-share,[2],2,primary_school_train2,234,0.8216686784599375,0.8216686784599375
+w-share,w-share,[2],3,primary_school_train3,234,0.8208675832009739,0.8208675832009739
+w-share,w-share,[2],4,primary_school_train4,234,0.8385067773165052,0.8385067773165052
+w-share,w-share,"[2, 3]",0,primary_school_train0,234,0.8658327629020455,0.8464770017205059
+w-share,w-share,"[2, 3]",1,primary_school_train1,234,0.8833937148877096,0.8662171769509003
+w-share,w-share,"[2, 3]",2,primary_school_train2,234,0.8728933468356647,0.8543441664631966
+w-share,w-share,"[2, 3]",3,primary_school_train3,234,0.8723072555740043,0.8540511902137833
+w-share,w-share,"[2, 3]",4,primary_school_train4,234,0.8680502210910778,0.8533316597899735
+w-share,w-share,"[2, 4]",0,primary_school_train0,234,0.8851170230839475,0.8198749786653012
+w-share,w-share,"[2, 4]",1,primary_school_train1,234,0.8854981651765805,0.8209772145417306
+w-share,w-share,"[2, 4]",2,primary_school_train2,234,0.885214200009136,0.8259409923243761
+w-share,w-share,"[2, 4]",3,primary_school_train3,234,0.8762002905692481,0.7994633635325792
+w-share,w-share,"[2, 4]",4,primary_school_train4,234,0.9032074742745071,0.8359963605192005
+w-share,w-share,"[2, 5]",0,primary_school_train0,234,0.9067675338189386,0.8137753574991686
+w-share,w-share,"[2, 5]",1,primary_school_train1,234,0.9092226847034339,0.818679331559694
+w-share,w-share,"[2, 5]",2,primary_school_train2,234,0.9101278876170655,0.8204874043897572
+w-share,w-share,"[2, 5]",3,primary_school_train3,234,0.9078882604450027,0.8160140753440481
+w-share,w-share,"[2, 5]",4,primary_school_train4,234,0.9145313767894571,0.8291730356733794
+w-share,w-share,"[2, 3, 4]",0,primary_school_train0,234,0.8992123482593922,0.8549408143319391
+w-share,w-share,"[2, 3, 4]",1,primary_school_train1,234,0.9078115679146794,0.8662557568189672
+w-share,w-share,"[2, 3, 4]",2,primary_school_train2,234,0.9003987839131943,0.859207931306679
+w-share,w-share,"[2, 3, 4]",3,primary_school_train3,234,0.9025964520927784,0.8554554915876077
+w-share,w-share,"[2, 3, 4]",4,primary_school_train4,234,0.900735047281154,0.8548767192929687
+w-share,w-share,"[2, 3, 5]",0,primary_school_train0,234,0.9141593925295077,0.8537956089974901
+w-share,w-share,"[2, 3, 5]",1,primary_school_train1,234,0.9215418339909921,0.8664015869746773
+w-share,w-share,"[2, 3, 5]",2,primary_school_train2,234,0.9199208865099301,0.8649465188228779
+w-share,w-share,"[2, 3, 5]",3,primary_school_train3,234,0.9116947290175542,0.8493802754782547
+w-share,w-share,"[2, 3, 5]",4,primary_school_train4,234,0.9139975207261428,0.8543456693787146
+w-share,w-share,"[2, 4, 5]",0,primary_school_train0,234,0.9234417337382403,0.8201841897412877
+w-share,w-share,"[2, 4, 5]",1,primary_school_train1,234,0.9236512915259757,0.8211573866251484
+w-share,w-share,"[2, 4, 5]",2,primary_school_train2,234,0.9235953147476792,0.8264976311669044
+w-share,w-share,"[2, 4, 5]",3,primary_school_train3,234,0.9258050287539438,0.8161454859050004
+w-share,w-share,"[2, 4, 5]",4,primary_school_train4,234,0.9361087112445127,0.8360061436310523
+w-share,w-share,"[2, 3, 4, 5]",0,primary_school_train0,234,0.9175867177812971,0.8452429467455268
+w-share,w-share,"[2, 3, 4, 5]",1,primary_school_train1,234,0.9276980093407012,0.8599846996426771
+w-share,w-share,"[2, 3, 4, 5]",2,primary_school_train2,234,0.9258277027789417,0.8568466812346707
+w-share,w-share,"[2, 3, 4, 5]",3,primary_school_train3,234,0.9273746448761019,0.8593902461855619
+w-share,w-share,"[2, 3, 4, 5]",4,primary_school_train4,234,0.9371965712175556,0.8733714177099613
+p-differ,p-differ,[2],0,primary_school_train0,234,0.502258064516129,0.502258064516129
+p-differ,p-differ,[2],1,primary_school_train1,234,0.5025806451612903,0.5025806451612903
+p-differ,p-differ,[2],2,primary_school_train2,234,0.5032258064516129,0.5032258064516129
+p-differ,p-differ,[2],3,primary_school_train3,234,0.5012946981350762,0.5012946981350762
+p-differ,p-differ,[2],4,primary_school_train4,234,0.7098961365774208,0.7098961365774207
+p-differ,p-differ,"[2, 3]",0,primary_school_train0,234,0.7686295277519872,0.7503499341324504
+p-differ,p-differ,"[2, 3]",1,primary_school_train1,234,0.8308474076286123,0.8098578581122133
+p-differ,p-differ,"[2, 3]",2,primary_school_train2,234,0.760750704950538,0.7354475586419928
+p-differ,p-differ,"[2, 3]",3,primary_school_train3,234,0.765295682449989,0.7431936723826909
+p-differ,p-differ,"[2, 3]",4,primary_school_train4,234,0.7581935445624628,0.7415847005861995
+p-differ,p-differ,"[2, 4]",0,primary_school_train0,234,0.5011290322580645,0.5021604938271604
+p-differ,p-differ,"[2, 4]",1,primary_school_train1,234,0.5012903225806451,0.5024691358024691
+p-differ,p-differ,"[2, 4]",2,primary_school_train2,234,0.5016129032258064,0.503088326127239
+p-differ,p-differ,"[2, 4]",3,primary_school_train3,234,0.5006455777921239,0.5012360939431396
+p-differ,p-differ,"[2, 4]",4,primary_school_train4,234,0.8001258780047786,0.7174925658399776
+p-differ,p-differ,"[2, 5]",0,primary_school_train0,234,0.6261260145681582,0.5025712919853675
+p-differ,p-differ,"[2, 5]",1,primary_school_train1,234,0.5012812695109261,0.5025592367808447
+p-differ,p-differ,"[2, 5]",2,primary_school_train2,234,0.5016129032258064,0.503221649484536
+p-differ,p-differ,"[2, 5]",3,primary_school_train3,234,0.500647349067538,0.5012930286339349
+p-differ,p-differ,"[2, 5]",4,primary_school_train4,234,0.8549858902284362,0.7101588954372228
+p-differ,p-differ,"[2, 3, 4]",0,primary_school_train0,234,0.8741944406650731,0.8201364243039044
+p-differ,p-differ,"[2, 3, 4]",1,primary_school_train1,234,0.5029382889200561,0.5029527559055118
+p-differ,p-differ,"[2, 3, 4]",2,primary_school_train2,234,0.7863841025516752,0.7541689397617826
+p-differ,p-differ,"[2, 3, 4]",3,primary_school_train3,234,0.8142946926161966,0.7473799210542432
+p-differ,p-differ,"[2, 3, 4]",4,primary_school_train4,234,0.7988245302037037,0.7378890158980123
+p-differ,p-differ,"[2, 3, 5]",0,primary_school_train0,234,0.8341831733445587,0.728500847642261
+p-differ,p-differ,"[2, 3, 5]",1,primary_school_train1,234,0.8350665145625848,0.7342373120322081
+p-differ,p-differ,"[2, 3, 5]",2,primary_school_train2,234,0.7060946550799386,0.7877269031668006
+p-differ,p-differ,"[2, 3, 5]",3,primary_school_train3,234,0.8994150477253041,0.8275530685948299
+p-differ,p-differ,"[2, 3, 5]",4,primary_school_train4,234,0.8789544796162128,0.7978260551378663
+p-differ,p-differ,"[2, 4, 5]",0,primary_school_train0,234,0.500752688172043,0.502157829839704
+p-differ,p-differ,"[2, 4, 5]",1,primary_school_train1,234,0.5008602150537634,0.5024660912453761
+p-differ,p-differ,"[2, 4, 5]",2,primary_school_train2,234,0.5010752688172043,0.5030845157310302
+p-differ,p-differ,"[2, 4, 5]",3,primary_school_train3,234,0.869391502114285,0.6989362722658787
+p-differ,p-differ,"[2, 4, 5]",4,primary_school_train4,234,0.500322788896062,0.5009264978381717
+p-differ,p-differ,"[2, 3, 4, 5]",0,primary_school_train0,234,0.5630630072840791,0.5015698840130962
+p-differ,p-differ,"[2, 3, 4, 5]",1,primary_school_train1,234,0.8377650942506469,0.8197923055362752
+p-differ,p-differ,"[2, 3, 4, 5]",2,primary_school_train2,234,0.8869666425010125,0.7881326217310535
+p-differ,p-differ,"[2, 3, 4, 5]",3,primary_school_train3,234,0.500323674533769,0.5007895619729263
+p-differ,p-differ,"[2, 3, 4, 5]",4,primary_school_train4,234,0.5,0.5
+p-share,p-share,[2],0,primary_school_train0,234,0.502258064516129,0.502258064516129
+p-share,p-share,[2],1,primary_school_train1,234,0.5025806451612903,0.5025806451612903
+p-share,p-share,[2],2,primary_school_train2,234,0.5032258064516129,0.5032258064516129
+p-share,p-share,[2],3,primary_school_train3,234,0.5012946981350762,0.5012946981350762
+p-share,p-share,[2],4,primary_school_train4,234,0.7098961365774208,0.7098961365774207
+p-share,p-share,"[2, 3]",0,primary_school_train0,234,0.7655490479848299,0.7476980256769877
+p-share,p-share,"[2, 3]",1,primary_school_train1,234,0.8361929496709083,0.8148536760906473
+p-share,p-share,"[2, 3]",2,primary_school_train2,234,0.7668723002017235,0.7419322231433584
+p-share,p-share,"[2, 3]",3,primary_school_train3,234,0.7629453080490809,0.7411283797893669
+p-share,p-share,"[2, 3]",4,primary_school_train4,234,0.7563217525130035,0.7401456482648859
+p-share,p-share,"[2, 4]",0,primary_school_train0,234,0.504700460829493,0.5024691358024691
+p-share,p-share,"[2, 4]",1,primary_school_train1,234,0.5048617511520737,0.5027777777777778
+p-share,p-share,"[2, 4]",2,primary_school_train2,234,0.5052360916316035,0.5033971587399628
+p-share,p-share,"[2, 4]",3,primary_school_train3,234,0.504268766197921,0.5015451174289245
+p-share,p-share,"[2, 4]",4,primary_school_train4,234,0.824500323301959,0.7202618708983429
+p-share,p-share,"[2, 5]",0,primary_school_train0,234,0.3761260145681582,0.5019269620884603
+p-share,p-share,"[2, 5]",1,primary_school_train1,234,0.5012812695109261,0.5025592367808447
+p-share,p-share,"[2, 5]",2,primary_school_train2,234,0.5016129032258064,0.503221649484536
+p-share,p-share,"[2, 5]",3,primary_school_train3,234,0.5006455777921239,0.5012894906511927
+p-share,p-share,"[2, 5]",4,primary_school_train4,234,0.8549340022780686,0.7100551864886817
+p-share,p-share,"[2, 3, 4]",0,primary_school_train0,234,0.8705337912165628,0.8249024413235161
+p-share,p-share,"[2, 3, 4]",1,primary_school_train1,234,0.4996774193548387,0.49940944881889765
+p-share,p-share,"[2, 3, 4]",2,primary_school_train2,234,0.8069399106396031,0.7524723858991873
+p-share,p-share,"[2, 3, 4]",3,primary_school_train3,234,0.8127858648546459,0.74522802821243
+p-share,p-share,"[2, 3, 4]",4,primary_school_train4,234,0.8005150222480862,0.7376905653871965
+p-share,p-share,"[2, 3, 5]",0,primary_school_train0,234,0.8350335307621038,0.7305021003826306
+p-share,p-share,"[2, 3, 5]",1,primary_school_train1,234,0.6682942332324879,0.734293681093606
+p-share,p-share,"[2, 3, 5]",2,primary_school_train2,234,0.8619895503397467,0.776752469169424
+p-share,p-share,"[2, 3, 5]",3,primary_school_train3,234,0.8956626108575687,0.823317943870684
+p-share,p-share,"[2, 3, 5]",4,primary_school_train4,234,0.878759739447712,0.7986541271239378
+p-share,p-share,"[2, 4, 5]",0,primary_school_train0,234,0.500752688172043,0.502157829839704
+p-share,p-share,"[2, 4, 5]",1,primary_school_train1,234,0.5032411674347158,0.5027743526510481
+p-share,p-share,"[2, 4, 5]",2,primary_school_train2,234,0.5034907277544024,0.5033929673041332
+p-share,p-share,"[2, 4, 5]",3,primary_school_train3,234,0.8677641842788217,0.6989695445297939
+p-share,p-share,"[2, 4, 5]",4,primary_school_train4,234,0.5075691657076562,0.5018529956763434
+p-share,p-share,"[2, 3, 4, 5]",0,primary_school_train0,234,0.5,0.5
+p-share,p-share,"[2, 3, 4, 5]",1,primary_school_train1,234,0.7779337791563936,0.8185950948922853
+p-share,p-share,"[2, 3, 4, 5]",2,primary_school_train2,234,0.8882181120659349,0.7909478516793957
+p-share,p-share,"[2, 3, 4, 5]",3,primary_school_train3,234,0.5012747614902908,0.5021675147288318
+p-share,p-share,"[2, 3, 4, 5]",4,primary_school_train4,234,0.5,0.5
